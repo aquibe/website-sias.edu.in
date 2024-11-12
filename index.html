@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6QYWCR93J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-E6QYWCR93J');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="./scripts/vue.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fontawesome-web/css/all.css">
+    <link rel="stylesheet" href="./css/custom/all.css">
+    <link rel="stylesheet" href="./css/custom/main.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>SAFI Institute of Advanced Study (Autonomous) | Autonomous Arts and Science College with Naac A++ grade in
+        kerala</title>
+    <link rel="icon" type="image/png" href="./icon.png">
+    <link rel="shortcut-icon" href="./icon.png">
+    <link rel="shortcut icon" href="./icon.png" type="image/png">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+
+
+    <meta name="msapplication-TileImage" content="https://www.sias.edu.in/images/thumbnail.jpg">
+    <meta property="og:image:secure_url" content="https://www.sias.edu.in/images/thumbnail.jpg">
+    <meta property="og:image" content="https://www.sias.edu.in/images/thumbnail.jpg">
+    <meta property="og:title"
+        content="SAFI Institute of Advanced Study (Autonomous) | Autonomous Arts and Science College with Naac A++ grade in kerala">
+    <meta property="og:description"
+        content="SAFI INSTITUTE OF ADVANCED STUDY (Autonomous), affiliated to the University of Calicut is a centre for research and higher education. It is the academic wing of Social Advancement Foundation of India (SAFI). It is partly residential and is located on a vast campus, 22 kms from Calicut city towards the airport. Along with the management, a dynamic team of teachers and scholars contribute significantly to the fulfillment of the academic programmes. SIAS possesses state of art laboratories and an excellent library. Founded on August 29th 2005, the Institute is housed in a large spacious building in the lush green backdrop and serene picturesque environment. The Institute commits itself to serve the economically weak, socially underprivileged and needy students.">
+    <meta
+        content="SAFI Institute of Advanced Study (Autonomous) | Autonomous Arts and Science College with Naac A++ grade in kerala"
+        name="title">
+    <meta name="description"
+        content="SAFI INSTITUTE OF ADVANCED STUDY (Autonomous), affiliated to the University of Calicut is a centre for research and higher education. It is the academic wing of Social Advancement Foundation of India (SAFI). It is partly residential and is located on a vast campus, 22 kms from Calicut city towards the airport. Along with the management, a dynamic team of teachers and scholars contribute significantly to the fulfillment of the academic programmes. SIAS possesses state of art laboratories and an excellent library. Founded on August 29th 2005, the Institute is housed in a large spacious building in the lush green backdrop and serene picturesque environment. The Institute commits itself to serve the economically weak, socially underprivileged and needy students.">
+    <meta name="keywords"
+        content="SAFI Institute of Advanced Study (Autonomous),Best naac graded unaided college in kerala,Top Autonomous college kerala,Best Autonomous college in kerala,Best Autonomous college in kozhikode, Best  Autonomous college in malappuram, Top  Autonomous college in malappuram,top naac rated college in kozhikode, top naac accredited college in kerala, ,safi,shafi college,saficollege,safi college vazhayur,siasindia.org,safi college website,sias website,social advancement foundation of india,safi Institute, top naac graded Autonomous unaided college in malabar region kerala kozhikode malappuram">
+
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '315415148236483');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=315415148236483&ev=PageView
+        &noscript=1" />
+    </noscript>
+</head>
+
+<body>
+    <div id="body">
+        <section class="fixed-top all-top" id="top">
+            <!--topbar contents here-->
+        </section>
+
+        <div class="container nav-adjust">
+            &nbsp;
+        </div>
+
+
+
+        <!-- news updates -->
+        <section class="updates-body" v-if="isupdates">
+            <div class="container">
+                <div class="updates-parent ">
+
+                    <span class="updates-head">| Updates :&nbsp;</span>
+
+                    <marquee onmouseover="this.stop();" onmouseout="this.start();" class="updates-child">
+                        <span v-for="update in updates" :key="update.id">
+                            <a :href="update.link" target="_blank">
+                                <span class="updates-text">{{update.text}}</span>
+                            </a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </span>
+                    </marquee>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <!-- <div><img src="./images/azadi.png" style="width: 12%;position:absolute;z-index:3;right:10px;"></div> -->
+            <div class="slider-body">
+                <img src="./images/slides/1.jpg"
+                    alt="The only Autonomous unaided arts and science college in kerala with naac A++ grade">
+                <img src="./images/slides/2.jpg"
+                    alt="Heighest Score in first cycle of naac accreditation. The only A++ graded unaided college in kerala">
+                <img src="./images/slides/3.jpg" alt="recognised by UGC 2(f), First Unaided college with NCC army">
+                <img src="./images/slides/4.jpg"
+                    alt="Safi alumnus Anees nadodi recieving national awards for best production design from the hon. president of india">
+                <img src="./images/slides/5.jpg"
+                    alt="Dr. MK jayaraj Hon. VC, University of calicut inagurates SAFI day in the presence of Mr. venu rajamani ">
+                <img src="./images/slides/6.jpg"
+                    alt="Dr. M Naseer, pro Vice chancellor, University of calicut inagurates the national conference on millets">
+                <img src="./images/slides/7.jpg"
+                    alt="Recieving the sir syed Ahmed khan institutional award for the best un-aided arts and science college in kerala from Dr. MK jayaraj Hon. VC, University of calicut">
+            </div>
+
+            <div class="welcome-body">
+                <p class="welcome-head">Welcome to SIAS</p>
+                <h2 class="welcome-text">
+                    SAFI Institute of Advanced Study (Autonomous), one of the premier Higher Education Institutions in the
+                    state of Kerala was established in 2005 by the Social Advancement Foundation of India (SAFI), a
+                    Non-profitable Charitable Trust.
+                    It offers 15 UG and 8 PG programmes in Arts, Science, Commerce, Management , Media studies and Artificial Intelligence.
+                    It is affiliated to University of Calicut and recognised by Government of Kerala and University
+                    Grants Commission (UGC) under 2(f).
+                </h2>
+                <a href="./about/index.html"><button class="welcome-button">KNOW MORE</button></a>
+            </div>
+        </section>
+
+
+        <section class="bg-princi mt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="page-head">Principal's Message</p>
+                        <div class="yellow-line"></div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="./images/faculty/Principal_Room_wide.jpg" class="princi-img">
+                        <p class="princi-name mt-4 d-none d-md-block">Prof. E. P. Imbichikoya</p>
+                        <a href="mailto:principal@sias.edu.in" class="d-none d-md-block">
+                            <p class="princi-mail"><i
+                                    class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;principal@sias.edu.in</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="princi-msg mt-md-0">
+                            Welcome to SAFI Institute of Advanced Study (Autonomous), where excellence in education meets ethical
+                            leadership.
+                            At the college, we take pride in fostering a vibrant learning environment that goes beyond
+                            traditional boundaries. Our commitment to academic excellence, coupled with state-of-the-art
+                            infrastructure, empowers our students to reach their full potential without losing their
+                            moral roots.<br>
+                            We believe in nurturing well-rounded individuals who are not only academically proficient
+                            but also equipped with the skills to thrive in a rapidly changing world. Our vision is to
+                            shape leaders and innovators in the fields of science, technology, management, commerce, and
+                            the humanities. Our dedicated faculty and staff are here to guide and support you throughout
+                            your educational journey, ensuring that you emerge as not only a knowledgeable professional
+                            but also a responsible global citizen.<br>
+                            Join us at the college, where learning knows no bounds and your aspirations find wings to soar.
+                            Together, let's embark on a journey of knowledge, growth, and endless possibilities.
+                            Warm regards,
+                        </p>
+                        <p class="princi-name d-block d-md-none">Prof. E. P. Imbichikoya</p>
+                        <a href="mailto:principal@sias.edu.in" class="d-block d-md-none">
+                            <p class="princi-mail"><i
+                                    class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;principal@sias.edu.in</p>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="bg-cust-light">
+            <div class="container" v-if="ishappenings">
+                <div class="row">
+                    <div class="col-12 col-md-7 mt-1">
+                        <p class="page-head">Whats happening
+                            <span style="position: absolute;right:15px;">
+                                <i class="fas fa-chevron-down " id="hd"></i>&nbsp;<i class="fas fa-chevron-up"
+                                    id="hu"></i>&nbsp;&nbsp;
+                                <a class="ml-auto" href="./happenings.html">
+                                    <button class="happening-card-button ml-auto">VIEW ALL</button>
+                                </a>
+                            </span>
+                        </p>
+                        <div class="yellow-line mb-4"></div>
+
+                        <div id="happenings">
+                            <div v-for="event in happenings" :key="event.id" class="happening-card">
+                                <img :src="event.image.url" class="happening-img">
+                                <div class="fl">&nbsp;</div>
+                                <div class="happening-card-right">
+                                    <a href="./happenings.html">
+                                        <p class="happening-card-head">{{event.heading}}</p>
+                                    </a>
+                                    <p class="happening-card-text">{{event.desc}}</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-4 mt-4 mt-md-1" v-if="isevents">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="page-head">Events
+                                    <a class="ml-auto" href="./events.html">
+                                        <button class="happening-card-button ml-auto"
+                                            style="position: absolute;right:15px">VIEW ALL</button>
+                                    </a>
+                                </p>
+                                <div class="yellow-line mb-4"></div>
+                            </div>
+                            <div class="col-12 mt-2">
+                                <div id="events">
+                                    <a href="./events.html" v-for="event in events"> <img :src="event.image.url"
+                                            style="width: 100%;"></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="achievements-section mt-2" id="counter">
+            <div class="achievements-green">
+                <div class="container">
+                    <p class="text-center achievement-head">Status quo</p>
+                    <div class="yellow-line-center"></div>
+                    <div id="achievements">
+                        <div class="achievement-card">
+                            <p class="text-center achievement-card-head"><span class="counter-value"
+                                    data-count="130">0</span>+</p>
+                            <p class="text-center achievement-card-text">Staff Members</p>
+                        </div>
+                        <div class="achievement-card">
+                            <p class="text-center achievement-card-head"><span class="counter-value"
+                                    data-count="2000">0</span>+</p>
+                            <p class="text-center achievement-card-text">Students</p>
+                        </div>
+                        <div class="achievement-card">
+                            <p class="text-center achievement-card-head"><span class="counter-value"
+                                    data-count="23">0</span></p>
+                            <p class="text-center achievement-card-text">Programmes</p>
+                        </div>
+                        <div class="achievement-card">
+                            <p class="text-center achievement-card-head"><span class="counter-value"
+                                    data-count="60">0</span>+<span style="font-size: 16px;">Acres</span></p>
+                            <p class="text-center achievement-card-text">Vast Campus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-4">
+            <p class="page-head text-center">UNIQUE FEATURES</p>
+            <div class="yellow-line-center"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <ul class="features">
+                            <li>Arts and Science College Affiliated to the University of Calicut</li>
+                            <li>Established in the year 2005</li>
+                            <li>Recognised by Govt. of Kerala</li>
+                            <li>Approved by AICTE for BBA and BCA</li>
+                            <li>ISO 9001:2015 certified Institution</li>
+                            <li>First College in India Accredited by NAAC with A++ grade in the first cycle</li>
+                            <li>Only Unaided Autonomous College in kerala Accredited by NAAC with A++ grade</li>
+                            <li>Only Unaided College in Malappuram district with NCC</li>
+                            <li>Only College in Malabar with civil service foundation course Delhi faculty</li>
+                            <li>Research centre of Lincoln University, Malaysia</li>
+                            <li>Scholarship for eligible students</li>
+                            <li>Hostel facility for boys and girls in the campus</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <ul class="features">
+
+                            <li>Transport facility from prominent locations</li>
+                            <li>Fee as prescribed by the Government of Kerala</li>
+                            <li>Similar Fee for Merit and Management Quota Students</li>
+                            <li>No capitation fee</li>
+                            <li>Single online application for Merit and Management Quota admission</li>
+                            <li>Active local chapter of Swayam-NPTEL</li>
+                            <li>100% ICT enabled class rooms</li>
+                            <li>Differently abled friendly campus</li>
+                            <li>Serene picturesque campus</li>
+                            <li>Vast campus of 120 acres</li>
+                            <li>Built up area of 2,50,000 sq.ft</li>
+                            <li>Campus Management Software with access to students and parents</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5 mt-5">
+
+            <div class="container">
+                <div class="resplayer">
+                    <iframe src="https://www.youtube.com/embed/SR8pMwc3P5w?rel=0&showinfo=0&autoplay=0" frameborder="0"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="container text-center mt-5">
+                <a href="./gallery.html"><button
+                        class="btn btn-outline-success btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIEW
+                        GALLERY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></a>
+            </div>
+        </section>
+
+
+        <section class="bg-cust-light">
+            <div class="container">
+                <p class="page-head text-center">AT A GLANCE</p>
+                <p class="page-subhead text-center">HAVE A LOOK AT THE AMBIENCE OF SIAS</p>
+                <div class="yellow-line-center"></div>
+
+                <div id="explore">
+                    <a href="./library.html">
+                        <div class="explore-body">
+                            <div class="explore-card" id="e1">
+                                <div class="explore-cover-bottom">
+                                    <p class="explore-text">LIBRARY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="explore-body">
+                            <div class="explore-card" id="e2">
+                                <div class="explore-cover-bottom">
+                                    <p class="explore-text">LIFE AT SIAS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="./resources/facilities.html">
+                        <div class="explore-body">
+                            <div class="explore-card" id="e3">
+                                <div class="explore-cover-bottom">
+                                    <p class="explore-text">FACILITIES</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./stdzone/index.html">
+                        <div class="explore-body">
+                            <div class="explore-card" id="e4">
+                                <div class="explore-cover-bottom">
+                                    <p class="explore-text">STUDENTS CLUBS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="explore-body">
+                            <div class="explore-card" id="e5">
+                                <div class="explore-cover-bottom">
+                                    <p class="explore-text">ACTIVITIES</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-12">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mt-4" v-if="isnews">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="page-head">News</p>
+                        <div class="yellow-line-center"></div>
+                        <div id="news">
+                            <div class="news-body" v-for="n in news">
+                                <img :src="n.image.url" class="news-img">
+                                <p class="news-text">{{n.text}}</p>
+                                <a :href="n.link"><button class="btn btn-primary btn-block">VIEW</button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-cust-light mt-4">
+            <div class="container">
+                <p class="page-head text-center">CLUBS AND FORUMS</p>
+                <p class="page-subhead text-center">STUDENTS CLUBS , COMMUNITIES AND FORUMS </p>
+                <div class="yellow-line-center"></div>
+                <div id="clubs">
+                    <img src="./images/clubs/club-1.png" class="clubs-img">
+                    <img src="./images/clubs/club-2.png" class="clubs-img">
+                    <img src="./images/clubs/club-3.png" class="clubs-img">
+                    <img src="./images/clubs/club-4.png" class="clubs-img">
+                    <img src="./images/clubs/club-5.png" class="clubs-img">
+                    <img src="./images/clubs/club-6.png" class="clubs-img">
+                    <img src="./images/clubs/club-7.png" class="clubs-img">
+                    <img src="./images/clubs/club-8.png" class="clubs-img">
+                    <img src="./images/clubs/club-10.png" class="clubs-img">
+                    <img src="./images/clubs/club-11.png" class="clubs-img">
+                    <img src="./images/clubs/club-12.png" class="clubs-img">
+                    <img src="./images/clubs/club-13.png" class="clubs-img">
+                    <img src="./images/clubs/club-14.png" class="clubs-img">
+                    <img src="./images/clubs/club-15.png" class="clubs-img">
+                    <img src="./images/clubs/club-16.png" class="clubs-img">
+                    <img src="./images/clubs/club-17.png" class="clubs-img">
+                    <img src="./images/clubs/club-9.png" class="clubs-img">
+                    <img src="./images/clubs/club-18.png" class="clubs-img">
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="bg-cust-dark">
+            <div class="container" id="footer">
+                <!--footer here-->
+            </div>
+        </section>
+
+        <section style="background-color: #e5e5e5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 ">
+                        <p class="bottom-text text-center">&copy;siasindia All rights reserved.
+                            Developed by <a href="https://fugipie.com" target="_blank"
+                                style="font-weight: 700;color: black;">Fugipie</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <div class="modal" id="modal1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Admission Started</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <a href="./docs/prospectus.pdf" target="_blank"><button class="btn btn-primary btn-block">VIEW
+                            PROSPECTUS</button></a>
+                    <a href="./admission.html"><button class="btn btn-success btn-block mt-3">APPLY NOW</button></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1" id="modalbutton"
+        style="display: none;">
+        Open modal
+    </button>
+</body>
+
+<script src="./scripts/over.js"></script>
+<script>
+
+    document.getElementById('nav1').classList.add('nav-text-active')
+</script>
+<script src="./scripts/main.js"></script>
+<script src="./js/jquery.slim.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/slick.min.js"></script>
+
+<script type="text/javascript">
+    function startHSlicks() {
+        $('#happenings').slick({
+            arrows: true,
+            draggable: false,
+            slidesToScroll: 1,
+            slidesToShow: 2,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            vertical: true,
+            prevArrow: $('#hd'),
+            nextArrow: $('#hu')
+        });
+    }
+    function startESlicks() {
+        $('#events').slick({
+            arrows: false,
+            draggable: true,
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            vertical: false
+        });
+    }
+
+    function startNSlicks() {
+        $('#news').slick({
+            arrows: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            responsive: [
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    }
+
+    $(document).ready(function () {
+
+        $('.slider-body').slick({
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+        });
+
+
+
+        $('#achievements').slick({
+            arrows: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            responsive: [
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+
+
+        $('#explore').slick({
+            arrows: false,
+            dots: false,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+
+        $('#clubs').slick({
+            arrows: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 500,
+            slidesToShow: 3,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+
+
+    });
+
+    var a = 0;
+    $(window).scroll(function () {
+
+        var oTop = $('#counter').offset().top - window.innerHeight;
+        if (a == 0 && $(window).scrollTop() > oTop) {
+            $('.counter-value').each(function () {
+                var $this = $(this),
+                    countTo = $this.attr('data-count');
+                $({
+                    countNum: $this.text()
+                }).animate({
+                    countNum: countTo
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function () {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function () {
+                        $this.text(this.countNum);
+
+                    }
+
+                });
+            });
+            a = 1;
+        }
+
+    });
+
+
+    // $('#modalbutton').click()
+    console.clear()
+
+</script>
+
+</html>

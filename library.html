@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <!-- Google tag (gtag.js) -->
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6QYWCR93J"></script>
+       <script>
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+   
+           gtag('config', 'G-E6QYWCR93J');
+       </script>
+       <title>Library | SAFI Institute of Advanced Study (Autonomous) </title>
+       <link rel="icon" type="image/png" href="./icon.png">
+       <link rel="shortcut-icon" href="./icon.png">
+       <link rel="shortcut icon" href="./icon.png" type="image/png">
+       <meta name="robots" content="index,follow">
+       <meta name="googlebot" content="index,follow">
+       <meta property="og:title" content="Library | SAFI Institute of Advanced Study (Autonomous)">
+       
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./css/fontawesome-web/css/all.css">
+    <link rel="stylesheet" href="./css/custom/all.css">
+    <link rel="stylesheet" href="./css/custom/texts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+    <script src="./scripts/vue.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <style>     
+       .div-line{
+           border-left: 3px solid grey;
+           padding-left: 20px;
+           background-color: #f0f0f0;
+           padding-top: 20px;
+       }
+       .acc-head{
+            background-color: #30403a;
+            color: white;
+            margin: 0;
+            padding: 10px 20px;
+        }
+        
+        .acc-word{
+            font-weight: 400;
+            color: #e0e0e0;
+            font-size: 18px;
+            margin: 0;
+            padding: 0; 
+        }
+        .card-body{
+            padding: 8px 20px 8px 8px;
+        }
+        .cust-box {
+           background-color: #f0f0f0;
+           margin-bottom: 20px;
+           color: #000;
+           
+        }
+        .staff-img{
+            width: 100%;
+        }
+        .t-title{
+            font-weight: 600;
+            font-size: 16px;
+            padding: 0;
+            margin: 5px 0 5px;
+        }
+        .t-name{
+            font-weight: 500;
+            font-size: 14px;
+            padding: 0;
+            margin: 5px 0 5px;
+        }
+       .tt{
+            
+            background-color: #f0f0f0;
+            height: 90px;
+       }
+       .icon1{
+        margin: 10px 5%;
+        width: 80%;
+       }
+       .book-body{
+        padding: 10px 15px;
+       }
+       .book-img{
+            width: 100%;
+            margin-bottom: 8px;
+        }
+        .book-title{
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;  /* Number of lines displayed before it truncate */
+            overflow: hidden;
+            font-weight: 600;
+        }
+       @media only screen and (max-width: 576px) {
+        .div-line{
+           border:none;
+           padding-left: 15px;
+        }
+        .acc-word,.acc-letter{
+                font-size: 14px;
+        }
+       }
+   </style>
+  </head>
+    <body>
+        <section class="fixed-top all-top" id="top">
+            <!--topbar contents here-->
+        </section>
+
+    <div class="container nav-adjust">
+        &nbsp;
+    </div>
+
+
+    <section class="pages-head-img-large" style="background: url('./images/pages/library.jpeg');width: 100%;background-repeat: no-repeat;background-position: center;background-size: cover;">
+  
+    </section>
+    <section class="page-name-body">
+        <div class="container">
+            <p class="page-name">Library</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="page-nav">
+                        <a href="./index.html">
+                            <span class="page-nav-text">Home</span>
+                        </a>
+                        <span class="page-nav-text">&nbsp;&nbsp;>&nbsp;&nbsp;</span>
+                        <span class="page-nav-active">Library</span></p>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <div class="container" id="body">
+        <div v-if="isbooks">
+            <p class="head1 ">New Arrivals</p>
+            <div class="yellow-line-2"></div>
+            <div id="books">
+                <div class="book-body" v-for="b in books">
+                    <img :src="b.image.url" class="book-img">
+                    <p class="book-title text-center">{{b.title}}</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container" style="margin-bottom: 50px;">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <h2 style="font-family: 'Saira', sans-serif;" class="head1">Library and information Centre, SIAS</h2>
+                <div class="yellow-line-2"></div>
+                <p style="text-align: justify;font-family: 'Open Sans', sans-serif;">
+                    Library is the soul of any academic institution. The Institute possesses an excellent Library and Information Centre. The Library is totally digitalized with access to E-books, E-journals and a well-established Institute repository. The library has computerized its operations and services with standard software.
+                </p>
+
+                <p class="head1 ">Library facilities</p>
+                <div class="yellow-line-2"></div>
+                <div class="row">
+                    <div class="col-6 col-md-4">
+                        <a href="./library-nvda.html">
+                            <img src="./images/library/nvda.jpeg"  class="icon1">
+                        </a>        
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <a href="https://archive.nptel.ac.in/LocalChapter/statistics/4360/" target="_blank">
+                            <img src="./images/library/NPTEL.jpg"  class="icon1">
+                        </a>        
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        <a href="https://ndl.iitkgp.ac.in/" target="_blank">
+                            <img src="./images/library/NDLI.jpg"  class="icon1">
+                        </a>        
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <a href="https://delnet.in/" target="_blank">
+                            <img src="./images/library/DELNET.jpg"  class="icon1">
+                        </a>        
+                    </div>
+                  
+                    <div class="col-6 col-md-4">
+                        <a href="https://nlist.inflibnet.ac.in/" target="_blank">
+                            <img src="./images/library/N-LIST.jpg"  class="icon1">
+                        </a>        
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <a href="http://54.197.232.163" target="_blank">
+                            <img src="./images/library/OPAC.jpg"  class="icon1">   
+                        </a>    
+                    </div>
+                </div>
+                <p class="text2">Plagiarism checkerX</p>          
+                <p class="text2">New Arrival Display</p>
+                <p class="text2">Digital Library</p>
+                <p class="text2">Institutional Repository</p>
+                <p class="text2">Open access</p>
+                <p class="text2">Reservation</p>
+                <p class="text2">Browsing</p>
+                <p>&nbsp;</p>
+
+                <p class="head1 mt-5">E-Resources</p>
+                    <div class="yellow-line-2"></div>
+
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/PDF-DRIVE.jpg"  class="icon1">       
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/DOAJ.jpg"  class="icon1">       
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/DOAB.jpg"  class="icon1">       
+                        </div>
+
+                        
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/GOOGLE-SCHOLAR.jpg"  class="icon1">       
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/NDLI_CLUB.jpg"  class="icon1">       
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/NPTEL.jpg"  class="icon1">       
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/LIBRI_VOX.jpg"  class="icon1">       
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/EPGP.jpg"  class="icon1">       
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/VIDYA_MITRA.jpg"  class="icon1">       
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/SWAYAM_PRABHA.jpg"  class="icon1">       
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/VIRTUAL_LAB.jpg"  class="icon1">       
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./images/library/MIT.jpg"  class="icon1">       
+                        </div>
+                    </div>
+                    <!-- <a href="https://scholar.google.com/" target="_blank"><p class="text2">Google Scholar</p></a>
+                    <a href="https://doaj.org/" target="_blank"><p class="text2">DOAJ</p></a>
+                    <a href="https://www.doabooks.org/" target="_blank"><p class="text2">DOAB</p></a>
+                    <a href="https://www.pdfdrive.com/" target="_blank"><p class="text2">PDFDRIVE</p></a>
+                    <a href="https://www.ndl.gov.in/" target="_blank"><p class="text2">National Digital Library</p></a>
+                    <a href="https://nptel.ac.in/" target="_blank"><p class="text2">NPTEL</p></a>
+                    <a href="https://ncert.nic.in/" target="_blank"><p class="text2">NCERT</p></a>
+                    <a href="https://librivox.org/" target="_blank"><p class="text2">LIBRIVOX</p></a>
+                    <a href="https://epgp.inflibnet.ac.in/" target="_blank"><p class="text2">e-PG Pathshala</p></a>
+                    <a href="https://vidyamitra.inflibnet.ac.in/" target="_blank"><p class="text2">Vidyamitra</p></a>
+                    <a href="https://www.swayamprabha.gov.in/" target="_blank"><p class="text2">Swayam Prabha</p></a>
+                    <a href="https://www.vlab.co.in/index.php" target="_blank"><p class="text2">MHRD Virtual Labs</p></a>
+                    <a href="https://ocw.mit.edu/index.html" target="_blank"><p class="text2">MIT Open CourseWare</p></a>
+                    <p>&nbsp;</p> -->
+                <p class="head1 ">Staff</p>
+                <div class="yellow-line-2"></div>
+                <div class="row">
+                    <div class="col-12 col-md-4  text-center">
+                        <div class="cust-box">
+                            <img src="./images/faculty/Librarian.jpg" class="staff-img">
+                            <div class="tt">
+                                <p class="t-title">Mr. Yaseen Aboobacker K.V.</p>
+                                <p class="t-name">Librarian</p>
+                            </div>
+                        </div>          
+                    </div>
+                    <div class="col-12 col-md-4  text-center">
+                        <div class="cust-box">
+                            <img src="./images/faculty/Library_Mufeedha.jpg" class="staff-img">
+                            <div class="tt">
+                                <p class="t-title">Ms. Mufeeda</p>
+                                <p class="t-name">Assistant Librarian</p>
+                            </div>
+                        </div>          
+                    </div>
+                    <div class="col-12 col-md-4  text-center">
+                        <div class="cust-box">
+                            <img src="./images/faculty/Library_Subaida.jpg" class="staff-img">
+                            <div class="tt">
+                                <p class="t-title">Ms. Subaida</p>
+                                <p class="t-name">Library Assistant</p>
+                            </div>
+                            
+                        </div>          
+                    </div>
+                </div>
+
+                
+                  <br>
+            </div>
+            <div class="col-12 col-md-4 div-line">
+               
+                <form method="get" action="https://nlist.inflibnet.ac.in/search/Search/Results" name="searchForm" id="searchForm" class="search">
+                    <p class="head1">Search</p>
+                    <div class="yellow-line-2"></div>
+                    <input id="searchForm_lookfor" type="text" name="lookfor" size="34" value="" class="autocomplete searcher:Solr typeSelector:searchForm_type" style="width: 100%;margin-bottom: 10px;" placeholder="Enter search terms">
+                    <label for="searchForm_type" class="offscreen">Search Type</label>
+                    <select id="searchForm_type" name="type" data-native-menu="false">
+                        <option value="AllFields">All Fields</option>
+                        <option value="Title">Title</option>
+                        <option value="Author">Author</option>
+                        <option value="Subject">Subject</option>
+                        <option value="CallNumber">Call Number</option>
+                        <option value="ISN">ISBN/ISSN</option>
+                        <option value="tag">Tag</option>
+                     </select>
+                       <br>
+                     <input type="submit" name="submit" value="Find" class="btn btn-primary" style="width: 50%;margin-top: 10px;">
+                    </form>
+
+
+                    <p class="head1 mt-5">Useful Links</p>
+                    <div class="yellow-line-2"></div>
+                    <a href="https://siaslibrary.wordpress.com/question-papers/" target="_blank"><p class="text2">Previous question papers</p></a>
+                    <a href="https://siaslibrary.wordpress.com" target="_blank"><p class="text2">Library Blog</p></a>
+
+
+                    <div id="accordion" class="mt-5">
+
+                        <div class="card">                    
+                            <a class="card-link" data-toggle="collapse" href="#a1">
+                              <div class="acc-head">
+                                <p style="padding:0;margin:0;"><span class="acc-word">Working Hours</span></p>
+                              </div>    
+                            </a>                    
+                            <div id="a1" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li>
+                                        <p class="text2">9.30 a.m.-5.00 p.m. on all weekdays</p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">10.00 a.m.-4.00 p.m. on Saturdays
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2"> The library is closed on Sundays and all public holidays.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                      
+                        <div class="card">                    
+                            <a class="card-link" data-toggle="collapse" href="#a2">
+                              <div class="acc-head">
+                                <p style="padding:0;margin:0;"><span class="acc-word">Library Rules</span></p>
+                              </div>    
+                            </a>                    
+                            <div id="a2" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li>
+                                        <p class="text2">
+                                            All students and staff are members of the library.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            The no of books issued to a PG student will not be more than 5 and to an UG more than 3 at a time.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            General books are issued for a period of two weeks.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            Members of the teaching staff may borrow up to ten books at a time and they have to return it within one month.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            Reference books will not be issued.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            A book may be re-issued to the same user if there is no other applicant for it.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            The Librarian can recall a book at any time.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            A fine of Rs .1/- for general books will be levied per day if a book is retained beyond the permitted period.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            Absence from the Institute will not be considered as an excuse for delay in returning the books.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            Current periodicals will be issued for use in the library.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            On no account shall a member spoil or disfigure a book. If a book is lost,they shall pay 3 times the price of the book.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="text2">
+                                            Students must return their “Reader’s Tickets” when leaving the Institute and should obtain “NO DUES CERTIFICATE”.
+                                        </p>
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </div>
+                            </div>
+                        </div>
+                      
+                        <div class="card">                    
+                            <a class="card-link" data-toggle="collapse" href="#a3">
+                              <div class="acc-head">
+                                <p style="padding:0;margin:0;"><span class="acc-word">Library section</span></p>
+                              </div>    
+                            </a>                    
+                            <div id="a3" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><p class="text2">Circulation section</p></li>
+                                    <li><p class="text2">Technical section</p></li>
+                                    <li><p class="text2">Stack</p></li>
+                                    <li><p class="text2">Reference section</p></li>
+                                    <li><p class="text2">Career Corner</p></li>
+                                    <li><p class="text2">Newspaper Reading Area</p></li>
+                                    <li><p class="text2">Reprographic section</p></li>
+                                    <li><p class="text2">Digital Information Centre</p></li>
+                                    
+    
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+    
+                        <div class="card">                    
+                            <a class="card-link" data-toggle="collapse" href="#a4">
+                                <div class="acc-head">
+                                <p style="padding:0;margin:0;"><span class="acc-word">Library services</span></p>
+    
+                                </div>    
+                            </a>                    
+                            <div id="a4" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><p class="text2">Circulation service</p></li>
+                                    <li><p class="text2"> Reference service</p></li>
+                                    <li><p class="text2">Reprographic service</p></li>
+                                    <li><p class="text2">Editorial Display Service</p></li>
+                                    <li><p class="text2">Plagiarism Checking Service</p></li>
+                                   
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                      
+                      </div>
+
+                    
+
+                
+          
+            </div>
+        </div>
+    </div>
+
+    <div style="height: 25px;background-color: #fff;"></div>
+
+    <section class="bg-cust-dark">
+        <div class="container" id="footer">
+            <!--footer here-->          
+        </div>
+    </section>
+
+    <section style="background-color: #e5e5e5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <p class="bottom-text text-center"> &copy; siasindia All rights reserved. Developed by <a href="https://fugipie.com"  target="_blank" style="font-weight: 700;color: black;">Fugipie</a></p>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+    <script src="./scripts/library.js"></script>
+    <script src="./scripts/over.js"></script>
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script>
+        function startBooksSlicks(){
+                $('#books').slick({
+                arrows:false,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                responsive:[
+                    {
+                        breakpoint:576,
+                        settings:{
+                            slidesToShow: 1, 
+                        }
+                    }
+                ]
+            });
+            }
+    </script>
+   
+</body>
+</html>

@@ -1,0 +1,490 @@
+body {
+    font-family: 'Saira', sans-serif;
+
+}
+
+.resplayer {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 60%;
+}
+
+.resplayer iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.yellow-line {
+    margin: 6px 0 10px;
+    background-color: #FED100;
+    border-radius: 30px;
+    width: 100px;
+    height: 4px;
+}
+
+.bg-cust-dark {
+    background-color: #efefef;
+    padding: 30px 0;
+}
+
+.bg-cust-light {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.bg-princi {
+    padding: 30px 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.989), #cdf5db 50.0%, rgba(255, 255, 255, 0.989));
+}
+
+.updates-body {
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 4px 0;
+}
+
+
+.updates-head {
+    color: #127C38;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    width: 104px;
+    position: absolute;
+    background-color: #F5F5F5;
+    z-index: 10;
+}
+
+.updates-text {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+
+}
+
+.welcome-body {
+    width: 78%;
+    margin-left: 11%;
+    position: relative;
+    margin-top: 10px;
+    z-index: 2;
+    border: none;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    padding: 12px 20px;
+    border-bottom: #127C38 2px solid;
+}
+
+.welcome-head {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 6px;
+    margin: 0;
+
+}
+
+.welcome-text {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: normal;
+}
+
+.welcome-button {
+    background-color: #127C38;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.princi-img {
+    margin: 0;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.princi-msg {
+    color: #000;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.princi-name {
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+
+.princi-mail {
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#happenings {
+    margin-bottom: 25px;
+}
+
+.page-head {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+.page-subhead {
+    color: gray;
+    font-size: 16px;
+    padding-bottom: 6px;
+    width: 100%;
+    margin: 0;
+}
+
+.happening-button {
+    color: #FED100;
+    border: #FED100 1px solid;
+    background-color: white;
+}
+
+.happening-button:hover {
+    color: black;
+    border: #FED100 1px solid;
+    background-color: #FED100;
+}
+
+#hu,
+#hd {
+    color: black;
+    font-size: 20px;
+}
+
+.happening-card {
+    height: 170px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.happenings-img-body {
+    float: left;
+    height: 170px;
+    width: 170px;
+}
+
+.happening-img {
+    height: 170px;
+    width: 170px;
+    float: left;
+}
+
+.fl {
+    width: 10px;
+    height: 170px;
+    float: left;
+}
+
+.happening-card-head {
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+}
+
+.happening-card-text {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 10px 0 20px;
+    color: #556776;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    /* Number of lines displayed before it truncate */
+    overflow: hidden;
+}
+
+.happening-card-button {
+    margin-top: 10px;
+    color: #127C38;
+    background-color: white;
+    padding: 4px 15px;
+    border: 1px solid #127C38;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.happening-card-button:hover {
+    color: white;
+    background-color: #127C38;
+}
+
+.news-body {
+    background: #e5e5e5;
+    margin: 10px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.news-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.news-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    /* Number of lines displayed before it truncate */
+    overflow: hidden;
+    margin: 5px;
+}
+
+.achievements-section {
+    background: url('../../images/students.jpeg') fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.achievements-green {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(18, 124, 56, 0.8);
+}
+
+.achievement-head {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.yellow-line-center {
+    margin: 6px 0 20px;
+    background-color: #FED100;
+    border-radius: 30px;
+    width: 10%;
+    height: 4px;
+    margin-left: 45%;
+}
+
+.achievement-card-head {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.achievement-card-text {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+
+
+
+
+.explore-body {
+    padding-right: 10px;
+}
+
+
+.explore-card {
+    width: 100%;
+    height: 440px;
+    position: relative;
+}
+
+#e1 {
+    background: url('../../images/explore/e1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#e2 {
+    background: url('../../images/explore/e2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#e3 {
+    background: url('../../images/explore/e3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#e4 {
+    background: url('../../images/explore/e4.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#e5 {
+    background: url('../../images/explore/e5.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore-cover-bottom {
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+    background: rgba(29, 148, 76, 0.8);
+    width: 100%;
+    text-align: center;
+}
+
+.explore-cover-top {
+    position: absolute;
+    top: 0;
+    padding: 20px 0;
+    background: rgba(29, 148, 76, 0.8);
+    width: 100%;
+    text-align: center;
+}
+
+.explore-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.explore-card:hover {
+    transform: scale(1.05, 1.05);
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(1.05, 1.05);
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#clubs {
+    margin: 20px 0px;
+}
+
+.clubs-img {
+    height: 80px;
+    width: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+ul {
+    list-style-image: url("../../images/check.svg");
+
+}
+
+.features li {
+    padding-left: 6px;
+    color: gray;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .welcome-head {
+        font-size: 24px;
+    }
+
+    .yellow-line {
+        width: 50px;
+    }
+
+    .welcome-body {
+        width: 92%;
+        margin-left: 4%;
+        margin-top: 16px;
+    }
+
+    .page-head {
+        font-size: 16px;
+    }
+
+    .page-subhead {
+        font-size: 11px;
+    }
+
+    .princi-msg {
+        font-size: 16px;
+    }
+
+    .happening-card {
+        height: 100px;
+    }
+
+    .happenings-img-body {
+        width: 120px;
+        height: 120px;
+    }
+
+    .happening-img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .fl {
+        height: 100px;
+    }
+
+    .happening-card-head {
+        font-size: 14px;
+    }
+
+    .happening-card-text {
+        font-size: 10px;
+        font-weight: 400;
+        padding: 0;
+        margin: 4px 0 6px;
+        color: #556776;
+    }
+
+    .yellow-line-center {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .explore-body {
+        padding: 0;
+    }
+
+    .academic-card-body {
+        padding: 0;
+    }
+
+    .features li {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+}

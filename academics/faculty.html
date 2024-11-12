@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../css/fontawesome-web/css/all.css">
+    <link rel="stylesheet" href="../css/custom/all.css">
+    <link rel="stylesheet" href="../css/custom/texts.css">
+    <link rel="stylesheet" href="../css/custom/depatment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="../icon.png">
+    <link rel="shortcut-icon" href="../icon.png">
+    <link rel="shortcut icon" href="../icon.png" type="image/png">
+    <title>Safi Institute of Advanced Study (SIAS)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="../scripts/vue.js"></script>
+    
+    <style>
+        body{
+            font-family:'Open Sans', sans-serif;
+        }
+        .acc-head{
+            border: #30403a 2px solid;
+            margin-bottom: 5px;
+        }
+        .acc-head-body{
+            background-color: #30403a;
+            padding:10px 20px;
+            
+        }
+        .acc-head-text{
+            font-weight: 600;
+            font-size: 18px;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+  <body>
+    <section class="fixed-top all-top" id="top">
+        <!--topbar contents here-->
+    </section>
+
+    <div class="container nav-adjust">
+        &nbsp;
+    </div>
+
+
+    <section class="page-name-body">
+        <div class="container">
+            <p class="page-name">Academics</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="page-nav">
+                        <a href="../index.html">
+                            <span class="page-nav-text">Home</span>
+                        </a>
+                        <span class="page-nav-text">&nbsp;&nbsp;>&nbsp;&nbsp;</span>
+                        <a href="./index.html">
+                            <span class="page-nav-text">Academics</span>
+                        </a>
+                        <span class="page-nav-text">&nbsp;&nbsp;>&nbsp;&nbsp;</span>
+                    <span class="page-nav-active">Faculty</span></p>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+
+    <!--contents-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12  col-md-3 order-2 order-md-1">
+                    <div class="side-bar"  id="sidebar">
+                        <div class="sidebar-item ">
+                            <a href="./index.html"><p class="sidebar-text">DEPARTMENTS</p></a>
+                        </div>
+                        <div class="sidebar-item">
+                            <a href="./programmes.html"><p class="sidebar-text">PROGRAMMES OFFERED</p></a>
+                        </div>
+                        <!-- <div class="sidebar-item">
+                            <a href="./academic-calendar.html"><p class="sidebar-text">ACADEMIC CALENDAR</p></a>
+                        </div> -->
+                        <div class="sidebar-item">
+                            <a href="./learning-outcomes.html"><p class="sidebar-text">LEARNING OUTCOMES</p></a>
+                        </div>
+                        <div class="sidebar-item">
+                            <a href="./other-courses.html"><p class="sidebar-text">ADD-ON / CERTIFICATE COURSES</p></a>
+                        </div>
+                        <div class="sidebar-item sidebar-item-active">
+                            <a href="./faculty.html"><p class="sidebar-text">FACULTY</p></a>
+                        </div>
+                        <!-- <div class="sidebar-item ">
+                            <a href="./timetable.html"><p class="sidebar-text">TIMETABLE</p></a>
+                        </div> -->
+                        <div class="sidebar-item ">
+                          <a href="./nptel.html"><p class="sidebar-text">SWAYAM-NPTEL</p></a>
+                      </div>
+                      <div class="sidebar-item ">
+                        <a href="./iec.html"><p class="sidebar-text">INTERNAL EXAMINATION COMMITTEE</p></a>
+                      </div>
+                      <div class="sidebar-item ">
+                        <a href="./capacity-building.html"><p class="sidebar-text">CAPACITY BUILDING / SKILL ENHANCEMENT</p></a>
+                    </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-9 order-1 order-md-2" id="page-content">
+                    <p class="head1">Faculty Profile</p>
+                    <div class="yellow-line-2"></div>
+                    
+                    <div id="accordion">
+
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#BT">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Biotechnology<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="BT" class="collapse" data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in BT" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#MB">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Microbiology<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="MB" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in MB" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#FT">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Food Technology<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="FT" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in FT" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#PSY">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Psychology<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="PSY" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in PSY" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#PHY">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Physics<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="PHY" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in PHY" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#CA">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Computer Applications<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="CA" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in CA" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                          <a class="card-link" data-toggle="collapse" href="#CSAI">
+                              <div class="acc-head-body">
+                              <p class="acc-head-text">Dept. of Computer Science and Artificial Intelligence<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                            </div>
+                          </a>
+                      
+                        <div id="CSAI" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                            <div class="row">
+                              <div v-for="fac in CSAI" :key="fac.id" class="col-12 col-md-4">
+                                  <div class="fac-card">
+                                      <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                      <p class="fac-name text-center">{{fac.name}}</p>
+                                      <p class="fac-desg text-center">{{fac.desg}}</p>
+                                     <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                  </div>
+                              </div>
+                            </div>             
+                        </div>
+                      </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#COM">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Commerce (Finance)<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="COM" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in COM" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#MS">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Management Studies<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="MS" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in MS" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#ECO">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Economics<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="ECO" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in ECO" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#IF">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Commerce (Islamic Finance)<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="IF" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in IF" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#JMC">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Journalism and Mass Communication<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="JMC" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in JMC" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#ENG">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of English<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="ENG" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in ENG" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#IS">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Islamic Studies<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="IS" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in IS" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                          <a class="card-link" data-toggle="collapse" href="#PA">
+                              <div class="acc-head-body">
+                              <p class="acc-head-text">Dept. of Public Administration<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                            </div>
+                          </a>
+                      
+                        <div id="PA" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                            <div class="row">
+                              <div v-for="fac in PA" :key="fac.id" class="col-12 col-md-4">
+                                  <div class="fac-card">
+                                      <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                      <p class="fac-name text-center">{{fac.name}}</p>
+                                      <p class="fac-desg text-center">{{fac.desg}}</p>
+                                     <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                  </div>
+                              </div>
+                            </div>             
+                        </div>
+                      </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#PE">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Physical Education<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="PE" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in PE" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#ARB">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Arabic<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="ARB" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in ARB" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#HND">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Hindi<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="HND" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in HND" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#MAL">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Malayalam<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="MAL" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in MAL" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#HIS">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of History<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="HIS" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in HIS" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#BC">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Biochemistry<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="BC" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in BC" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#BI">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Bioinformatics<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="BI" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in BI" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#CHE">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Chemistry<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="CHE" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in CHE" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#MAT">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Mathematics<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="MAT" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in MAT" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+                        <div class="acc-head">
+                            <a class="card-link" data-toggle="collapse" href="#STAT">
+                                <div class="acc-head-body">
+                                <p class="acc-head-text">Dept. of Statistics<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                              </div>
+                            </a>
+                        
+                          <div id="STAT" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                              <div class="row">
+                                <div v-for="fac in STAT" :key="fac.id" class="col-12 col-md-4">
+                                    <div class="fac-card">
+                                        <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                        <p class="fac-name text-center">{{fac.name}}</p>
+                                        <p class="fac-desg text-center">{{fac.desg}}</p>
+                                       <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                    </div>
+                                </div>
+                              </div>             
+                          </div>
+                        </div>
+
+                        <div class="acc-head">
+                          <a class="card-link" data-toggle="collapse" href="#MSW">
+                              <div class="acc-head-body">
+                              <p class="acc-head-text">Dept. of Social Work<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                            </div>
+                          </a>
+                      
+                        <div id="MSW" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                            <div class="row">
+                              <div v-for="fac in MSW" :key="fac.id" class="col-12 col-md-4">
+                                  <div class="fac-card">
+                                      <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                      <p class="fac-name text-center">{{fac.name}}</p>
+                                      <p class="fac-desg text-center">{{fac.desg}}</p>
+                                     <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                  </div>
+                              </div>
+                            </div>             
+                        </div>
+
+                       
+                      </div>
+                      <div class="acc-head">
+                        <a class="card-link" data-toggle="collapse" href="#MM">
+                            <div class="acc-head-body">
+                            <p class="acc-head-text">Dept. of Multimedia<i class="fas fa-chevron-down" style="position: absolute;right: 30px;"></i></p>
+                          </div>
+                        </a>
+                    
+                      <div id="MM" class="collapse " data-parent="#accordion" style="padding: 20px 10px 0;">
+                          <div class="row">
+                            <div v-for="fac in MM" :key="fac.id" class="col-12 col-md-4">
+                                <div class="fac-card">
+                                    <img :src="fac.img2" class="fac-img" :alt="fac.name">
+                                    <p class="fac-name text-center">{{fac.name}}</p>
+                                    <p class="fac-desg text-center">{{fac.desg}}</p>
+                                   <p class="text-center"><a :href="fac.profile2"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                                </div>
+                            </div>
+                          </div>             
+                      </div>
+                    </div>
+                    
+                    <div style="background-color: #fff;" class="d-block d-md-none">
+                        <hr width="100%" size="2px" color="black">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div style="height: 25px;background-color: #fff;"></div>
+    
+
+    <section class="bg-cust-dark">
+        <div class="container" id="footer">
+            <!--footer here-->          
+        </div>
+    </section>
+    <section style="background-color: #e5e5e5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <p class="bottom-text text-center">Copyrights &copy; 2022 siasindia All rights reserved. Developed by <a href="https://fugipie.com"  target="_blank" style="font-weight: 700;color: black;">Fugipie</a></p>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+
+    <script src="./faculty.js"></script>
+    <script src="../scripts/over-other.js"></script>
+    <script >
+        document.getElementById('nav3').classList.add('nav-text-active')
+    </script>
+    <script src="../js/jquery.slim.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    
+    </body>
+</html>

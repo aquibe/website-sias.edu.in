@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../../css/fontawesome-web/css/all.css">
+    <link rel="stylesheet" href="../../css/custom/all.css">
+    <link rel="stylesheet" href="../../css/custom/texts.css">
+    <link rel="stylesheet" href="../../css/custom/depatment.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="../../icon.png">
+    <link rel="shortcut-icon" href="../../icon.png">
+    <link rel="shortcut icon" href="../../icon.png" type="image/png">
+    <title>Safi Institute of Advanced Study (SIAS)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="../../scripts/vue.js"></script>
+    <style>
+        body{
+            font-family:'Open Sans', sans-serif;
+        }
+        
+    </style>
+</head>
+  <body>
+    <section class="fixed-top all-top" id="top">
+        <!--topbar contents here-->
+    </section>
+
+    <div class="container nav-adjust">
+        &nbsp;
+    </div>
+
+    <section class="page-name-body">
+        <div class="container">
+            <p class="page-name">Department of English</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="page-nav">
+                        <a href="../../index.html">
+                            <span class="page-nav-text">Home</span>
+                        </a>
+                        <span class="page-nav-text">&nbsp;&nbsp;>&nbsp;&nbsp;</span>
+                        <a href="../index.html">
+                            <span class="page-nav-text">Academics</span>
+                        </a>
+                        <span class="page-nav-text">&nbsp;&nbsp;>&nbsp;&nbsp;</span>
+                        <a href="../index.html">
+                            <span class="page-nav-text">Departments</span>
+                        </a>
+                        <span class="page-nav-text">&nbsp;&nbsp;>&nbsp;&nbsp;</span>
+                        <a href="./index.html">
+                            <span class="page-nav-text">English</span>
+                        </a>
+                        <span class="page-nav-text">&nbsp;&nbsp;>&nbsp;&nbsp;</span>
+                    <span class="page-nav-active">Faculty Profile</span></p>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12  col-md-3 order-2 order-md-1">
+                    <div class="side-bar"  id="sidebar">
+                        <!-- sidebar here -->                  
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-9 order-1 order-md-2" id="page-content">
+                    <p class="head1">Faculty Profile</p>
+                    <div class="yellow-line-2"></div>
+                    <div style="height: 10px;"></div>
+                    <div class="row">
+                        <div v-for="fac in ENG" :key="fac.id" class="col-12 col-md-4">
+                            <div class="fac-card">
+                                <img :src="fac.img1" class="fac-img" :alt="fac.name">
+                                <p class="fac-name text-center">{{fac.name}}</p>
+                                <p class="fac-desg text-center">{{fac.desg}}</p>
+                               <p class="text-center"><a :href="fac.profile1"><button class="fac-button">VIEW PROFILE</button></a> </p>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background-color: #fff;" class="d-block d-md-none">
+                    <hr width="100%" size="2px" color="black">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div style="height: 25px;background-color: #fff;"></div>
+
+
+<section class="bg-cust-dark">
+    <div class="container" id="footer">
+        <!--footer here-->          
+    </div>
+</section>
+<section style="background-color: #e5e5e5">
+<div class="container">
+    <div class="row">
+        <div class="col-12 ">
+            <p class="bottom-text text-center">Copyrights &copy; 2022 siasindia All rights reserved. Developed by <a href="https://fugipie.com"  target="_blank" style="font-weight: 700;color: black;">Fugipie</a></p>
+        </div>
+        
+    </div>
+</div>
+</section>
+<script src="../faculty.js"></script>
+<script src="../../scripts/over-other-inner.js"></script>
+<script src="../dept-sidebar.js"></script>
+<script >
+    document.getElementById('nav3').classList.add('nav-text-active')
+    document.getElementById('dsb3').classList.add('sidebar-item-active')
+   
+</script>
+
+<script src="../../js/jquery.slim.min.js"></script>
+<script src="../../js/bootstrap.bundle.min.js"></script>
+<script src="../../js/jquery.min.js"></script>
+
+</body>
+</html>

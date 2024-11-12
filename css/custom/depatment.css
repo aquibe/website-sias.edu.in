@@ -1,0 +1,138 @@
+
+.round-box{
+    background-color: #0A9546;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+}
+.vcenter{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+.round-box-icons{
+    color: #fff;
+    font-size: 50px;
+}
+.round-box-text{
+    margin:6px 15px 0;
+    color: #fff;
+    font-size: 14px;
+}
+.round-box:hover{
+    background-color: #127C38;
+    transform: scale(1.2,1.2);
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition: all 0.3s ease-in-out; 
+}
+.bg-line{
+    background: url('../../images/buttons/yellow-line.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+}    
+@media only screen and (max-width: 576px) {
+    .round-box-text{
+    font-size: 12px;
+    }
+    .round-box:hover{
+    background-color: #127C38;
+    transform: scale(1.2,1.2);
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition: all 0.3s ease-in-out; 
+}
+
+/* syllabus */
+}
+.cust-box{
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 20px; 
+    border: 4px solid #127C38;
+    background-color: #fff;
+}
+.box-text{
+    padding: 12px 0;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.cust-box:hover{
+     box-shadow: 0 0 10px 1px grey; 
+     transform: scale(1.03,1.03);
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(1.03,1.03);
+    -webkit-transition: all 0.3s ease-in-out; 
+    border: 5px solid #F55353;
+}
+
+/* table */
+.t-text{
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.table-row:hover{
+    background-color: #e0e0e0;
+}
+
+/* faculty profile */
+.fac-card{
+    width: 100%;
+    height: 90%;
+    box-shadow: 0 0 10px 1px grey; 
+    border-radius: 20px; 
+    background-color: #fff;
+}
+
+.fac-card:hover{
+    background-color: #2F4239;
+}
+
+.fac-card:hover .fac-name{
+    color: #fff;
+}
+.fac-card:hover .fac-desg{
+    color: #fff;
+}
+.fac-img{
+    width: 100%;
+    border-radius: 20px
+}
+
+.fac-name{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.fac-desg{
+    font-size: 16px;
+    font-weight: 400;
+    color: #303030;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.fac-button{
+    margin-bottom: 15%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #218838;
+    padding: 8px 20px;
+}

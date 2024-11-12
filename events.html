@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6QYWCR93J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-E6QYWCR93J');
+    </script>
+    <title>Events | SAFI Institute of Advanced Study (Autonomous) </title>
+    <link rel="icon" type="image/png" href="./icon.png">
+    <link rel="shortcut-icon" href="./icon.png">
+    <link rel="shortcut icon" href="./icon.png" type="image/png">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="googlebot" content="noindex,nofollow">
+    <meta property="og:title" content="Events | SAFI Institute of Advanced Study (Autonomous)">
+
+     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./css/fontawesome-web/css/all.css">
+    <link rel="stylesheet" href="./css/custom/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="./scripts/vue.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <style>     
+       .happening-card-head{
+            font-weight: 700;
+            font-size: 20px;
+            color: black;
+            padding: 0;
+            margin: 0;
+        }
+
+        .happening-card-text{
+            font-size: 16px;
+            font-weight: 400;
+            padding: 0;
+            margin: 10px 0 20px;
+            color:#556776;
+        }
+   </style>
+  </head>
+    <body>
+        <section class="fixed-top all-top" id="top">
+            <!--topbar contents here-->
+        </section>
+
+    <div class="container nav-adjust">
+        &nbsp;
+    </div>
+
+    </section>
+    <section class="page-name-body">
+        <div class="container">
+            <p class="page-name" id="ename1">HAPPENINGS</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="page-nav">
+                        <a href="./index.html">
+                            <span class="page-nav-text">Home</span>
+                        </a>                    
+                        <span class="page-nav-text">&nbsp;&nbsp;>&nbsp;&nbsp;</span>
+                        <span class="page-nav-active" >Events</span></p>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <div class="container" id="body">
+        <div class="row">
+            <div class="col-12 col-md-6"  v-for="e in events" :key="e.id">
+                <div class="row mb-5">
+                    <div class="col-4">           
+                        <img :src="e.image.url" style="width: 100%;">
+                    </div>
+                    <div class="col-8 mt-auto mb-auto">
+                        <p class="happening-card-head">{{e.heading}}</p>
+                        <p class="happening-card-text">{{e.desc}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <div style="height: 25px;background-color: #fff;"></div>
+
+    <section class="bg-cust-dark">
+        <div class="container" id="footer">
+            <!--footer here-->          
+        </div>
+    </section>
+
+    <section style="background-color: #e5e5e5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <p class="bottom-text text-center">&copy; siasindia All rights reserved. Developed by <a href="https://fugipie.com"  target="_blank" style="font-weight: 700;color: black;">Fugipie</a></p>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+    <script src="./scripts/events.js"></script>
+    <script src="./scripts/over.js"></script>
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
