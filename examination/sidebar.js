@@ -18,6 +18,6 @@ document.getElementById('sidebar').innerHTML=`
 <a href="https://safi.embase.in/exam/#/sign-in" target="_blank"><p class="sidebar-text">HALL TICKET</p></a>
 </div>
 <div class="sidebar-item " id="sb6">
-<a href="#"><p class="sidebar-text">RESULT</p></a>
+<a href="./results.html"><p class="sidebar-text">RESULT</p></a>
 </div>
 `
