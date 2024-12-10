@@ -3,6 +3,12 @@ const App={
         return {
             ec:[
                 {
+                    "id": "0",
+                    "name": "Dr. Galfar Muhammed Ali",
+                    "desg": "Chairman Emeritus",
+                    "img": "../images/management/1.jpeg"
+                },
+                {
                     "id": "1",
                     "name": "Mr. C.H. Abdul Raheem",
                     "desg": "Chairman",
