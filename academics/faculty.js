@@ -408,17 +408,6 @@ const App = {
                 },
                 
                 {
-                    "id": "EN27",
-                    "img1": "../../images/faculty/EN27.jpg",
-                    "img2": "../images/faculty/EN27.jpg",
-                    "profile1": "../view-profile.html?EN27",
-                    "profile2": "./view-profile.html?EN27",
-                    "deptid": "ENG",
-                    "name": "Mr. Abdurahiman T",
-                    "desg": "Assistant Professor",
-                    "dept": "English",
-                },
-                {
                     "id": "EN28",
                     "img1": "../../images/faculty/EN28.jpg",
                     "img2": "../images/faculty/EN28.jpg",
