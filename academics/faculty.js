@@ -169,17 +169,6 @@ const App = {
                 },
                
                 {
-                    "id": "CM24",
-                    "img1": "../../images/faculty/CM24.jpg",
-                    "img2": "../images/faculty/CM24.jpg",
-                    "profile1": "../view-profile.html?CM24",
-                    "profile2": "./view-profile.html?CM24",
-                    "deptid": "COM",
-                    "name": "Mr. Abdul Nisam V.P.",
-                    "desg": "Assistant Professor",
-                    "dept": "Commerce",
-                },
-                {
                     "id": "CM25",
                     "img1": "../../images/faculty/CM25.jpg",
                     "img2": "../images/faculty/CM25.jpg",
@@ -816,17 +805,7 @@ const App = {
                     "desg": "Assistant Professor and Head",
                     "dept": "Physics"
                 },
-                {
-                    "id": "PH08",
-                    "img1": "../../images/faculty/PH08.jpg",
-                    "img2": "../images/faculty/PH08.jpg",
-                    "profile1": "../view-profile.html?PH08",
-                    "profile2": "./view-profile.html?PH08",
-                    "deptid": "PHY",
-                    "name": "Mr. Abdul Irshad",
-                    "desg": "Assistant Professor",
-                    "dept": "Physics"
-                },
+               
                 {
                     "id": "BI01",
                     "img1": "../../images/faculty/BI01.jpg",
