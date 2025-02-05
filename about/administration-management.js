@@ -4,7 +4,7 @@ const App={
             ec:[
                 {
                     "id": "0",
-                    "name": "Dr. Galfar Muhammed Ali",
+                    "name": "Dr. P. Mohammed Ali (Galfar)",
                     "desg": "Chairman Emeritus",
                     "img": "../images/management/1.jpeg"
                 },
@@ -56,176 +56,163 @@ const App={
             em:[
                 {
                     "id":"1",
-                    "name":"Dr. Mohamed Ali P."
-                },
-                {
-                    "id":"2",
                     "name":"Dr. Azad Moopen"
                 },
                 {
-                    "id":"3",
-                    "name":"Mr. Ahammed P.K."
+                    "id":"2",
+                    "name":"Mr. Ahammed P.K"
                 },
                 {
-                    "id":"12",
-                    "name":"Mr. M.P. Ahammed"
+                    "id":"3",
+                    "name":"Mr. Ahammed M.P"
                 },
                 {
                     "id":"4",
-                    "name":"Mr. Mehaboob M.A."
-                },
-                {
-                    "id":"5",
-                    "name":"Dr. Amir Ahmed"
-                },
-                {
-                    "id":"6",
                     "name":"Mr. Kunhi Mohammed C.P."
                 },
                 {
+                    "id":"5",
+                    "name":"Dr. Ataat R Khan"
+                },
+                {
+                    "id":"6",
+                    "name":"Mr. Babu Moopan M.A.M."
+                },
+                {
                     "id":"7",
-                    "name":"Mr. C.H. Abdul Raheem"
+                    "name":"Dr. Habeeb Rahman C. P."
                 },
                 {
                     "id":"8",
-                    "name":"Mr. Ameer Ahamed"
+                    "name":"Mr. Mohammed Ali N.K."
                 },
                 {
                     "id":"9",
-                    "name":"Dr. Abdussalam Ahmad"
+                    "name":"Dr. Mubarak Pasha"
                 },
                 {
                     "id":"10",
-                    "name":"Mr. Abdul Azeez K.V"
+                    "name":"Dr. 18.Mr. Yusuf Nalwala"
                 },
                 {
                     "id":"11",
-                    "name":"Ms. Khadeeja Z. Mohamed Ali"
+                    "name":"Mr. Lefeer Muhamed M"
+                },
+                {
+                    "id":"12",
+                    "name":"Mr. Alungal Mohammed"
                 },
                
                 {
                     "id":"13",
-                    "name":"Dr. Ataat R Khan"
+                    "name":"Mr. E.V. Luqman"
                 },
-                {
-                    "id":"14",
-                    "name":"Mr. Babu Moopan M.A.M."
-                },
-                {
-                    "id":"15",
-                    "name":"Dr. Habeeb Rahman C. P."
-                },
-                {
-                    "id":"16",
-                    "name":"Mr. Imbichammad T.P."
-                },
-                {
-                    "id":"17",
-                    "name":"Mr. Kunhammad K.V."
-                },
-                {
-                    "id":"18",
-                    "name":"Mr. Mohammed Ali N.K."
-                },
-
-                {
-                    "id":"20",
-                    "name":"Dr. Mubarak Pasha"
-                },
-                {
-                    "id":"21",
-                    "name":"Mr. Najeeb C.M."
-                },
-                {
-                    "id":"22",
-                    "name":"Mr. Yusuf Nalwala"
-                }
+                
             ],
             ot:[
                 {
                     "id":"1",
-                    "name":"Mr. P.V. Abdul Wahab"
+                    "name":"Mr. P.V. Abdul Wahab M.P"
                 },
                 {
                     "id":"2",
-                    "name":"Mr. Y. Abdulla Kunhi"
+                    "name":"Mr. Abdulla Ibrahim"
                 },
                 {
                     "id":"3",
-                    "name":"Mr. Abdul Jabbar"
+                    "name":"Mr. Imbichammad T.P"
                 },
                 {
                     "id":"4",
-                    "name":"Mr. M.P. Abdussamad Samadani"
+                    "name":"Mr. K.V Kunhammad"
                 },
                 {
                     "id":"5",
-                    "name":"Dr. C. K. Ahamad Kutty"
+                    "name":"Mr. C.M Najeeb"
                 },
                 {
                     "id":"6",
-                    "name":"Dr. Ahamed"
+                    "name":"Mr. Y. Abdulla Kunhi"
                 },
                 {
                     "id":"7",
-                    "name":"Mr. Ajit Ansar Moopen"
+                    "name":"Mr. Abdul Jabbar"
                 },
                 {
                     "id":"8",
-                    "name":"Dr. M. Ali"
+                    "name":"Mr. M.P. Abdussamad Samadani"
                 },
                 {
                     "id":"9",
-                    "name":"Mr. Ali K. Hassan"
+                    "name":"Dr. C. K. Ahamad Kutty"
                 },
                 {
                     "id":"10",
-                    "name":"Mr. Alungal Mohammad"
+                    "name":"Dr. Ahamed T"
                 },
                 {
                     "id":"11",
-                    "name":"Mr. S.M Basheer"
+                    "name":"Mr. Ajit Ansar Moopen"
                 },
                 {
                     "id":"12",
-                    "name":"Mr. P.P. Hyder Haji"
+                    "name":"Dr. M. Ali"
                 },
                 {
                     "id":"13",
-                    "name":"Mr. Koroth Mohammad"
+                    "name":"Mr. Ali K. Hassan"
                 },
                 {
                     "id":"14",
-                    "name":"Mr. E.V. Luqman"
+                    "name":"Mr. S.M Basheer"
                 },
                 {
                     "id":"15",
+                    "name":"Mr. P.P. Hyder Haji"
+                },
+                {
+                    "id":"16",
+                    "name":"Mr. Koroth Mohammad"
+                },
+                {
+                    "id":"17",
                     "name":"Mr. E.T Mohammed Basheer"
                 },
-              
                 {
                     "id":"18",
-                    "name":"Mr. Muhammed Lefeer"
-                },
-                {
-                    "id":"19",
                     "name":"Mr. Mullaveetil Abdu Saleem"
                 },
                 {
-                    "id":"20",
+                    "id":"19",
                     "name":"Mr. Nasly Mohammad"
                 },
                 {
-                    "id":"21",
+                    "id":"20",
                     "name":"Mr. M. Salahuddin"
                 },
                 {
+                    "id":"21",
+                    "name":"Dr.K.K. Usman"
+                },
+                {
                     "id":"22",
-                    "name":"Dr. K.K. Usman"
+                    "name":"Mr. M. A. Yusuff Ali"
                 },
                 {
                     "id":"23",
-                    "name":"Mr. M. A. Yusuff Ali"
+                    "name":"Mr. Anoop Moopen"
+                },
+                {
+                    "id":"24",
+                    "name":"Mr. K.E Moidu "
+                },
+                {
+                    "id":"25",
+                    "name":"Mr. Abdulla Nalapad"
+                },
+                {
+                    "id":"26",
+                    "name":"Mr. Sameer K Mohammed"
                 }
 
             ]

@@ -4,6 +4,133 @@ const App={
             year:'all',
             tableData:[],
             list:[
+                
+                {
+                    "id":"148",
+                    "year":"2023",
+                    "name":"CONNECTA_Innovative Idea Presentation",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-14-connecta.pdf"
+                },
+                {
+                    "id":"147",
+                    "year":"2023",
+                    "name":"'CIBO EXOTICA'- Product Development competition for studentprenuers",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-13-cbio.pdf"
+                },
+                {
+                    "id":"146",
+                    "year":"2023",
+                    "name":"Tech Print- Research Paper presentation series",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-12-tech-print.pdf"
+                },
+                {
+                    "id":"145",
+                    "year":"2023",
+                    "name":"Workshop on Research Methodology",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-11-rm-commerce-22-23.pdf"
+                },
+                {
+                    "id":"144",
+                    "year":"2023",
+                    "name":"Research Methodology Workshop on Protein Biochemistry",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-10-protein-biochemistry.pdf"
+                },
+                {
+                    "id":"143",
+                    "year":"2023",
+                    "name":"Skill Development Programme-Exploring the latest in Science",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-9-journalclub-microbiology-22-23.pdf"
+                },
+                {
+                    "id":"142",
+                    "year":"2023",
+                    "name":"Workshop on Mushroom Cultivation-Marketing and Consumption",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-8-mushroom-microbio-22-23.pdf"
+                },
+                {
+                    "id":"141",
+                    "year":"2023",
+                    "name":"One day Workshop on Research Methodology",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-7-rm-economics-22-23.pdf"
+                },
+                {
+                    "id":"140",
+                    "year":"2023",
+                    "name":"Securing Innovation:Navigating the landscape of IPR",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-6-ipr-physics-22-23.pdf"
+                },
+                {
+                    "id":"139",
+                    "year":"2023",
+                    "name":"Skill develeoment Programme-Food Akinator",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-5-foodakinator-ft-22-23.pdf"
+                },
+                {
+                    "id":"138",
+                    "year":"2023",
+                    "name":"Entrepreneureship and Innovation as career opportunities",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-4-ed-cs-22-23.pdf"
+                },
+                {
+                    "id":"137",
+                    "year":"2023",
+                    "name":"‘AU FEIT’-Research methodology workshop in social sciences",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-3-rm-english-22-23.pdf"
+                },
+                {
+                    "id":"136",
+                    "year":"2023",
+                    "name":"SEMINAR ON ‘RESEARCH METHODOLOGY’",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-2-rm-ft-22-23.pdf"
+                },
+                {
+                    "id":"135",
+                    "year":"2023",
+                    "name":"Seminar on Basic Research, Industry and Patent-Biostumag",
+                    "link":"https://sias.edu.in/naac_2023/aqar/cr3/3-2-2/proof/3-2-2-1-iprbiostumag-22-23.pdf"
+                },
+                {
+                    "id":"134",
+                    "year":"2024",
+                    "name":"Explore the art of research",
+                    "link":"#"
+                },
+                {
+                    "id":"133",
+                    "year":"2024",
+                    "name":"online workshop on intellectual property rights(IPR),Patents and design filing",
+                    "link":"#"
+                },
+                {
+                    "id":"132",
+                    "year":"2024",
+                    "name":"Workshop on effective presentation skills",
+                    "link":"#"
+                },
+                {
+                    "id":"131",
+                    "year":"2024",
+                    "name":"International conference on 'New Trends and innovations in Islamic Studies",
+                    "link":"#"
+                },
+                {
+                    "id":"130",
+                    "year":"2024",
+                    "name":"Workshop on Abstract Writing",
+                    "link":"#"
+                },
+                {
+                    "id":"129",
+                    "year":"2024",
+                    "name":"Three day International Conference on Research Innovations",
+                    "link":"#"
+                },
+                {
+                    "id":"128",
+                    "year":"2024",
+                    "name":"Product development in food and beverage industries",
+                    "link":"#"
+                },
                 {
                     "id":"1",
                     "year":"2021",

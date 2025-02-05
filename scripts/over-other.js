@@ -135,11 +135,11 @@ document.getElementById('footer').innerHTML=
                     <a href="../about/index.html"><p class="footer-text">About SIAS</p></a>
                     <a href="https://www.osra.in"><p class="footer-text">Alumni</p></a>
                     <a href="#"><p class="footer-text">Students Feedback</p></a>
-                    <a href="#"><p class="footer-text">Teacher Feedback</p></a>
+                    <a href="#"><p class="footer-text">Teachers Feedback</p></a>
                     <a href="#"><p class="footer-text">Alumni Feedback</p></a>
                     <a href="../about/growth.html"><p class="footer-text">Growth and Expansion</p></a>
                     <a href="../about/administrative-staff.html"><p class="footer-text">SIAS Administration</p></a>
-                    <a href="https://safi.embase.in" target="_blank"><p class="footer-text">Pay Fee</p></a>
+                    <a href="https://safi.embase.in" target="_blank"><p class="footer-text">Fee Payment</p></a>
                     <a href="#"><p class="footer-text">PTA</p></a>
                     <a href="../careers.html"><p class="footer-text">Careers</p></a>
                      

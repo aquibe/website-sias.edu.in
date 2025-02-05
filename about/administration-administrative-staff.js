@@ -12,7 +12,6 @@ const App = {
                 { id: 'o8', name: 'Mr. Ashraf K.T., BA', desg: 'Cashier' },
             ],
             support: [
-                { id: 's1', name: 'Mr. Muhammed Azeez P.M.', desg: 'System Administrator' },
                 { id: 's2', name: 'Ms. Anju C.B.', desg: 'Document Controller' },
                 { id: 's3', name: 'Mr. Muhammed Yaseen A.', desg: 'Computer Lab Assistant' },
                 { id: '9', name: 'Mr. Abdul Haque M	', desg: 'Office Attendant' },

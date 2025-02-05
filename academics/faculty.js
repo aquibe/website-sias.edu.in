@@ -214,7 +214,17 @@ const App = {
                     "desg": "Assistant Professor",
                     "dept": "Commerce",
                 },
-
+                {
+                    "id": "CM32",
+                    "img1": "../../images/faculty/CM32.jpg",
+                    "img2": "../images/faculty/CM32.jpg",
+                    "profile1": "../view-profile.html?CM32",
+                    "profile2": "./view-profile.html?CM32",
+                    "deptid": "COM",
+                    "name": "Mr. Vasil",
+                    "desg": "Assistant Professor",
+                    "dept": "Commerce",
+                },
                 {
                     "id": "BT03",
                     "img1": "../../images/faculty/BT03.jpg",
@@ -396,17 +406,7 @@ const App = {
                     "dept": "English",
                 },
                 
-                {
-                    "id": "EN28",
-                    "img1": "../../images/faculty/EN28.jpg",
-                    "img2": "../images/faculty/EN28.jpg",
-                    "profile1": "../view-profile.html?EN28",
-                    "profile2": "./view-profile.html?EN28",
-                    "deptid": "ENG",
-                    "name": "Ms. Najila P.M.",
-                    "desg": "Assistant Professor",
-                    "dept": "English",
-                },
+            
                 {
                     "id": "EN29",
                     "img1": "../../images/faculty/EN29.jpg",
@@ -805,7 +805,17 @@ const App = {
                     "desg": "Assistant Professor and Head",
                     "dept": "Physics"
                 },
-               
+                {
+                    "id": "PH09",
+                    "img1": "../../images/faculty/PH09.jpg",
+                    "img2": "../images/faculty/PH09.jpg",
+                    "profile1": "../view-profile.html?PH09",
+                    "profile2": "./view-profile.html?PH09",
+                    "deptid": "PHY",
+                    "name": "Dr. Raseel Rahman M.K.",
+                    "desg": "Assistant Professor ",
+                    "dept": "Physics"
+                },
                 {
                     "id": "BI01",
                     "img1": "../../images/faculty/BI01.jpg",
