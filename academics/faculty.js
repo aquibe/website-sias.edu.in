@@ -872,6 +872,17 @@ const App = {
                     "dept": "History"
                 },
                 {
+                    "id": "HS02",
+                    "img1": "../../images/faculty/HS02.jpg",
+                    "img2": "../images/faculty/HS02.jpg",
+                    "profile1": "../view-profile.html?HS02",
+                    "profile2": "./view-profile.html?HS02",
+                    "deptid": "HIS",
+                    "name": "Mr. Saidalavi K.M.",
+                    "desg": "Assistant Professor ",
+                    "dept": "History"
+                },
+                {
                     "id": "HN01",
                     "img1": "../../images/faculty/HN01.jpg",
                     "img2": "../images/faculty/HN01.jpg",
