@@ -2,7 +2,7 @@ const App = {
     data() {
         return {
             office: [
-                { id: 'o1', name: 'Ms. T.T.P. Kaneez Ameer; M.A.', desg: 'Administrative Officer' },
+                { id: 'o1', name: 'Ms. T.T.P. Kaneez Ameer; M.A.', desg: 'Manager (Administration & HR)' },
                 { id: 'o2', name: 'Mr. Shaheed K., M.Com', desg: 'Senior Accountant' },
                 { id: 'o3', name: 'Ms. Shapna Nair K.K.; Dip. in Comp. Engg.', desg: 'Section Officer' },
                 { id: 'o4', name: 'Mr. Junaid A.V.; M.Sc.', desg: 'Office Secretary' },
@@ -45,16 +45,19 @@ const App = {
 
             ],
             lhostel: [
-                { id: 'lh1', name: 'Ms. Sulojana', desg: 'Matron' },
-                { id: 'lh2', name: 'Ms. Bindhu', desg: 'Matron' },
+    
+                { id: 'lh1', name: 'Ms. Bindhu M.', desg: 'Matron' },
+                { id: 'lh2', name: 'Ms. Princy Issac', desg: 'Assistant Warden' },
 
                 { id: 'lh3', name: 'Ms. Saroja P.', desg: 'Housekeeping - Part-time' },
-                { id: 'lh4', name: 'Ms. Jaanu', desg: 'Helper' }
+                { id: 'lh4', name: 'Ms.Vasantha C.', desg: 'Housekeeping - Part-time' },
+
+           
+
+
             ],
             mhostel: [
-                { id: 'mh1', name: 'Mr. Farooq M', desg: 'Warden' },
-
-                { id: 'mh2', name: 'Ms. Kumari P.', desg: 'Housekeeping - Part-time' },
+                { id: 'mh1', name: 'Mr. Farooq M', desg: 'Assistant Warden' },
             ],
             library: [
                 { id: "44", name: "Mr. Yaseen Aboobacker K.V.", desg: "Chief Librarian" },

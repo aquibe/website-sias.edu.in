@@ -5,10 +5,12 @@ const App={
             ishappenings:false,
             isevents:false,
             isnews:false,
+            isStdA:false,
             happenings:[],
             events:[],
             updates:[
-            ]
+            ],
+            stda:[]
         }
     }, 
     methods:{
@@ -29,6 +31,7 @@ const App={
             this.events=data.events
             this.updates=data.updates
             this.news=data.news
+            this.stda = data.stda
             if(this.updates.length){
                 this.isupdates=true
             }
@@ -43,6 +46,11 @@ const App={
             if(this.news.length>=4){
                 this.isnews=true
                 setTimeout(startNSlicks,500)
+            }
+
+            if(this.stda.length>=4){
+                this.isStdA=true
+                setTimeout(startStdaSlicks,500)
             }
             
         }

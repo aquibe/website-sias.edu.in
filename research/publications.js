@@ -365,6 +365,178 @@ const App={
                     "journal":"Archives of Microbiology ",
                     "year":"2021"
                 },
+                {
+                    "id":"JP43",
+                    "title":"Chitosan nanoparticles as rice growth promoter- evaluation of biological activity",
+                    "author":"Shabanamol S",
+                    "deptid":"MB",
+                    "dept":"Microbiology",
+                    "journal":"Archives of Microbiology",
+                    "year":"2022"
+                },
+                {
+                    "id":"JP44",
+                    "title":"Samakaleen Sahitya mei Shakunthala sirotiya Ka Sthan",
+                    "author":"Sreevidya P V",
+                    "deptid":"HIN",
+                    "dept":"Hindi",
+                    "journal":"Naman",
+                    "year":"2022"
+                },
+                {
+                    "id":"JP45",
+                    "title":"Sakunthala Sirotia ke baal Kavya mei Rashtreeya Chethana",
+                    "author":"Sreevidya P V",
+                    "deptid":"HIN",
+                    "dept":"Hindi",
+                    "journal":"Shodh Dhisha ",
+                    "year":"2022"
+                },
+                {
+                    "id":"JP46",
+                    "title":"Baal Manovigyan – Baal sahitya ke sandarb mei",
+                    "author":"Sreevidya P V",
+                    "deptid":"HIN",
+                    "dept":"Hindi",
+                    "journal":"Nagfani",
+                    "year":"2022"
+                },
+                {
+                    "id":"JP47",
+                    "title":"Asymmetric modulation instability in nonlinear metamaterial waveguides",
+                    "author":"A K Shefeeque Ali",
+                    "deptid":"PHY",
+                    "dept":"Physics",
+                    "journal":"Physica Scripta",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP48",
+                    "title":"FOREIGN DIRECT INVESTMENT IN INDIAN PHARMACEUTICAL INDUSTRY: AN IMPACT STUDY",
+                    "author":"Lukmanul Hakeem M",
+                    "deptid":"ECO",
+                    "dept":"Economics",
+                    "journal":"Amal International Journal of Economics &Social Science",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP49",
+                    "title":"FOREIGN DIRECT INVESTMENT IN INDIAN PHARMACEUTICAL INDUSTRY: AN IMPACT STUDY",
+                    "author":"Zanoobiya K",
+                    "deptid":"ECO",
+                    "dept":"Economics",
+                    "journal":"Amal International Journal of Economics &Social Science",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP50",
+                    "title":"FOREIGN DIRECT INVESTMENT IN INDIAN PHARMACEUTICAL INDUSTRY: AN IMPACT STUDY",
+                    "author":"Thahsin V K",
+                    "deptid":"ECO",
+                    "dept":"Economics",
+                    "journal":"Amal International Journal of Economics &Social Science",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP51",
+                    "title":"Beyond Mourning :Empowerment of Windows in Cinema and Culture",
+                    "author":"Najla.PM",
+                    "deptid":"ENG",
+                    "dept":"English",
+                    "journal":"INDIAN JOURNAL OF NATURAL SCIENCE (IJONS)",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP52",
+                    "title":"Entrance channel dependence of quasi fission in reaction leading to 206 Po Compound  nucleus",
+                    "author":"Dr.Hajara .K",
+                    "deptid":"PHY",
+                    "dept":"Physics",
+                    "journal":"Nuclear Physics A",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP53",
+                    "title":"Dense Inception v5 Convolution Neural Network for LIver Tumor Classification into multi abnormal instances and staging of the desease using List-CT images",
+                    "author":"PT. Arshad",
+                    "deptid":"CSAI",
+                    "dept":"Computer Science and applications",
+                    "journal":"Journal of Harbin Engineering University",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP54",
+                    "title":"Gendered cultural Norms:The Maternal Authority Paradox In Kerala's Muslim Marriage",
+                    "author":"Jouhara.KP",
+                    "deptid":"",
+                    "dept":"English",
+                    "journal":"INDIAN JOURNAL OF NATURAL SCIENCE (IJONS)",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP55",
+                    "title":"unraveling Bollywood's Propaganda:A Framework for Analysing Political Narratives in Indian Cinema",
+                    "author":"Aneesunneesa P ",
+                    "deptid":"ENG",
+                    "dept":"English",
+                    "journal":"Journal of Communication and management",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP56",
+                    "title":"Challenging Beauty Norms: A Discursive Analysis of the New Malayalam Cinema through social Media Reactions",
+                    "author":"Aneesunneesa P ",
+                    "deptid":"ENG",
+                    "dept":"English",
+                    "journal":"INDIAN JOURNAL OF NATURAL SCIENCE (IJONS)",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP57",
+                    "title":"Malabar Muslim women's Reading of Kamala Das Poem Middle Age",
+                    "author":"Mohammed Shafeer .KP",
+                    "deptid":"ENG",
+                    "dept":"English",
+                    "journal":"INDIAN JOURNAL OF NATURAL SCIENCE (IJONS)",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP58",
+                    "title":"Shapping Tomorrow : Unraveling the social construction of Youth in the Digital Age",
+                    "author":"Fathima Nilofer",
+                    "deptid":"ENG",
+                    "dept":"English",
+                    "journal":"INDIAN JOURNAL OF NATURAL SCIENCE (IJONS)",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP59",
+                    "title":"Beyond stereotypes: Unraveling Cognitive Diversity in contemporary Literature's  Gender Narratives",
+                    "author":"Zayana.PK",
+                    "deptid":"ENG",
+                    "dept":"English",
+                    "journal":"INDIAN JOURNAL OF NATURAL SCIENCE (IJONS)",
+                    "year":"2023"
+                },
+                {
+                    "id":"JP60",
+                    "title":"Beyond Mourning :Empowerment of Windows in Cinema and Culture",
+                    "author":"Aysha Muradh.PC",
+                    "deptid":"ENG",
+                    "dept":"English",
+                    "journal":"INDIAN JOURNAL OF NATURAL SCIENCE (IJONS)",
+                    "year":"2023"
+                },
+                
+                {
+                    "id":"JP61",
+                    "title":"Climate Nature and Kerala Elegance: A Study of Kamala Das' poem the Rain",
+                    "author":"Mohammed Shafeer .KP",
+                    "deptid":"ENG",
+                    "dept":"English",
+                    "journal":"International Journal of Advance and Applied Research ",
+                    "year":"2024"
+                },
                 
             ],
             books:[
@@ -719,6 +891,684 @@ const App={
                     "year":"2020",
                     "number":"978-93-5396-145-9"
                 },
+                {
+                    "id":"BP40",
+                    "author":"Dr. Shabanamol S",
+                    "content":"Handbook of Biopolymers",
+                    "title":"Soy protein Bioploymer",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"Hardcover ISBN978-981-19-0709-8 eBook ISBN978-981-19-0710-4, "
+                },
+                {
+                    "id":"BP41",
+                    "author":"Dr.Tancia Rosalin",
+                    "content":"",
+                    "title":"POLYALTHIA KORINTII LEAF EXTRACT-MEDIATED GREEN SYNTHESISED IRON OXIDE NANOPARTICLES FOR BIOLOGICAL AND ENVIRONMENTAL APPLICATIONS",
+                    "titlepre":"Proceedings of 35th Kerala Science Congress",
+                    "year":"2023",
+                    "number":"978-81-953863-7-6"
+                },
+                {
+                    "id":"BP42",
+                    "author":"Dr. Hassan Shareef KP",
+                    "content":"Anthology of the Peer Reviewd Research Articles in Humanities ",
+                    "title":"A Study on the Traditional Foods of Thekkepuram",
+                    "titlepre":"Anthology of the Peer Reviewd Research Articles in Humanities ",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP43",
+                    "author":"Dr. Hassan Shareef KP",
+                    "content":"Anthology of the Peer Reviewd Research Articles in Humanities ",
+                    "title":"Depiction of Culinary Diversity and hospitality in Songs: A Study on Calicut",
+                    "titlepre":"Anthology of the Peer Reviewd Research Articles in Humanities ",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                
+                {
+                    "id":"BP44",
+                    "author":"Dr. Shebeeb Khan P",
+                    "content":"Anthology of the Peer Reviewd Research Articles in Humanities ",
+                    "title":" Persian Taste in Indian Culture with Special reference to Biriyani   ",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP45",
+                    "author":"Dr. Shebeeb Khan P",
+                    "content":"Anthology of the Peer Reviewd Research Articles in Humanities ",
+                    "title":"Portrayal of Malabar food culture on Chelavoor KC s Mappila Songs  ",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP46",
+                    "author":"Dr. Shebeeb Khan P",
+                    "content":"Anthology of the Peer Reviewd Research Articles in Humanities ",
+                    "title":"Tastes of Malabar in The Writings of Ibn Batuta              ",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+              
+                {
+                    "id":"BP47",
+                    "author":"",
+                    "content":"",
+                    "title":"",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":""
+                },
+                {
+                    "id":"BP48",
+                    "author":"Ms. Semiya.P.M",
+                    "content":"Anthology of the Peer Reviewd Research Articles in Humanities ",
+                    "title":"Transmission of wedding food culture in Thekkeppuram",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP49",
+                    "author":"Dr. Hajara.K",
+                    "content":"Computational Mathematics and Applied Physics with material science engineering and computer applications ",
+                    "title":"Dependance of evaporation residue cross sections on various channel parameters",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-81-961212-1-1"
+                },
+                {
+                    "id":"BP50",
+                    "author":"Ms.Semiya.P.M",
+                    "content":"Anthology of the Peer Reviewd Research Articles in Humanities ",
+                    "title":"Sadya: The word indicating the food culture of Kerala",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"ISBN: 978-93-5811-420-1"
+                },
+                {
+                    "id":"BP51",
+                    "author":"Dr Shabanamol S",
+                    "content":"Aquatic Lectins-Immune Defense, Biological Recognition and Molecular Advancements",
+                    "title":"Immune system in Fish and role of lectins during infection",
+                    "titlepre":"",
+                    "year":"2022",
+                    "number":"eBook ISBN978-981-19-0432-5"
+                },
+                {
+                    "id":"BP52",
+                    "author":"Ms. Semiya.P.M",
+                    "content":"Anthology of the Peer Reviewd Research Articles in Humanities ",
+                    "title":"Relevance of health maintaining Food served in Karkidaka",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"ISBN: 978-93-5811-420-1"
+                },
+                {
+                    "id":"BP53",
+                    "author":"Dr.Tancia Rosalin",
+                    "content":" ",
+                    "title":"Non Polar Extract from Polyalthia korintii Leaves Inhibits Proliferation, Migration, Invasion and Induces Apoptosis in Human Colorectal Carcinoma Cells",
+                    "titlepre":"34th Kerala Science Congress-Science, Technology & Innovation for Transition to a Knowledge Economy",
+                    "year":"2022",
+                    "number":"978-81-953863-1-4"
+                },
+                {
+                    "id":"BP54",
+                    "author":"Ms. Aneesunneesa P",
+                    "content":"Raising Beyond the Ceiling Kerala:100 Inspiring Muslim Women of Kerala",
+                    "title":"Overview of Muslim women in Kerala",
+                    "titlepre":"",
+                    "year":"2022",
+                    "number":"ASIN:BOBG6J355M"
+                },
+                {
+                    "id":"BP55",
+                    "author":"Dr.Najda A",
+                    "content":"Raising Beyond the Ceiling Kerala:100 Inspiring Muslim Women of Kerala",
+                    "title":"Overview of Muslim women in Kerala",
+                    "titlepre":"",
+                    "year":"2022",
+                    "number":"ASIN:BOBG6J355M"
+                },
+                {
+                    "id":"BP56",
+                    "author":"Dr. Hassan Shareef KP",
+                    "content":"Inter-Religious Understanding For Advancement Of Human Rights For All",
+                    "title":"Peaceful Coexistence in Indian Subcontinent: Lessons from Medina Charter of Prophet Muhammed (PBUH)",
+                    "titlepre":"",
+                    "year":"2022",
+                    "number":"ISBN 9789391659097"
+                },
+                {
+                    "id":"BP57",
+                    "author":"Mr.A.K.Shanawas",
+                    "content":" ",
+                    "title":"Kudumbashree: A Ray of hope for women Enterpreneurship",
+                    "titlepre":"",
+                    "year":"2022",
+                    "number":"978-81-909609-0-8"
+                },
+                {
+                    "id":"BP58",
+                    "author":"Dr. Haris.M",
+                    "content":" ",
+                    "title":"Kudumbashree: A Ray of hope for women Enterpreneurship",
+                    "titlepre":"",
+                    "year":"2022",
+                    "number":"978-81-909609-0-8"
+                },
+                {
+                    "id":"BP59",
+                    "author":"Jouhara K P",
+                    "content":"Intersections of Expressions",
+                    "title":"From Rural ponds to digital forums;unveiling shifting dyna,mics in privacy invasion and genedered behaviour",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-340-4095-1"
+                },
+                {
+                    "id":"BP60",
+                    "author":"Muhammed Shafeer K P",
+                    "content":"International Journal of Advance and applied research",
+                    "title":"Kerala Climate and Feminine nature: a critical study of Kamaladas poem-Winter",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"2347-7075"
+                },
+                {
+                    "id":"BP61",
+                    "author":"Muhammed Shafeer K P",
+                    "content":"Proceedings-Socio economic relevance in science, Social science and comerece towards sustainability (SERSSCTS) 2024",
+                    "title":"Climate, Nature and Kerala ellegance, A studuy of Kamala das poem-Rain",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-94819-65-8"
+                },
+                {
+                    "id":"BP62",
+                    "author":"Muhammed Shafeer K P",
+                    "content":"Enriching Mind:Latest Trends in English Literature and English Language in the digital Era",
+                    "title":"folk and main stream: Need for popularising folk performances and deconstructing distinctions",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"2456-2696"
+                },
+                {
+                    "id":"BP63",
+                    "author":"Sreevidya PV",
+                    "content":"Sahitya mein manovigyan",
+                    "title":"Chitra Mudgal ke balsahitya mein chitrit Bal manovigyan",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5786-621-7"
+                },
+                {
+                    "id":"BP64",
+                    "author":"Muhammed Shafeer K P",
+                    "content":"Rhetoric of Resilience:Impact of Trauma on Language,Memory and Cultural Narratives ",
+                    "title":"Deconstructing the stigma and Traumaof rape in Sithara's Short story Agni",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-2426-5"
+                },
+                {
+                    "id":"BP65",
+                    "author":"Mujeeb Rahiman Kattali",
+                    "content":"Futuristic Trends in Managements",
+                    "title":"Problems and issues of Kudumbashree units in Kerala: Pros and Cons",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":""
+                },
+                {
+                    "id":"BP66",
+                    "author":"Karthika S K",
+                    "content":"Indelible Impressions",
+                    "title":"A long Walk",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-5605-351-9"
+                },
+                {
+                    "id":"BP67",
+                    "author":"Zayana P K",
+                    "content":"Rhetoric of Resilience:Impact of Trauma on Language,Memory and Cultural Narratives ",
+                    "title":"Behind closed pages: Ethical inquiries in investigative journalism Lessons from the girl with the dragon Tattoo",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-2426-5"
+                },
+                {
+                    "id":"BP68",
+                    "author":"Ms. Radhika",
+                    "content":"Pandemic Reflections . Stories from the Covid-19 Lockdown",
+                    "title":"My own Letters",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":""
+                },
+                {
+                    "id":"BP69",
+                    "author":"Muhammed Shafeer K P",
+                    "content":"Recent advancement in Environment, agriculture and climatic change, economic , Business, Accounting, management and enterpreneurship science and Technology, pharmacy and health humanities and social Science",
+                    "title":"Kerala Climate and Feminine nature: a critical study of Kamaladas poem-Winter",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-81-971359-2-7"
+                },
+                {
+                    "id":"BP70",
+                    "author":"Muhammed Shafeer K P",
+                    "content":"Intersections of Expressions",
+                    "title":"Space as a determining factor in social distancing and Theendapad in Kerala",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-340-4095-1"
+                },
+                {
+                    "id":"BP71",
+                    "author":"Shonima govindan M",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Screening of potential probiotic bacteria from coconut inflorescence Sap",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP72",
+                    "author":"Shonima govindan M",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Assessing the pupicidal effect of petroleum ether extract of pogostemon quodrifolius leaves on culex quinquefasciatus",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP73",
+                    "author":"Shonima govindan M",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Assessing the pupicidal effect of petroleum ether extract of pogostemon quodrifolius leaves on culex quinquefasciatus",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP74",
+                    "author":"Nafila P P",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"vitro analysis and evaluation of bioactiv compounds from extracts of plant pimento Dioica",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP75",
+                    "author":"Akhila P K",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Construction and Validation of EGFP expressing vector to analse miRNA binding in RGC-5 Cells",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP76",
+                    "author":"Nafila P P",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Bio activity of crude protein extracted from seeds of medicago",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP77",
+                    "author":"Shonima govindan M",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Phytochemical analysis and evolution of larvicidal property of leaf and flower extracts of pogostemon quadrifolius (Benth) F. Muell against Culex quinquefasciatus",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP78",
+                    "author":"Anjana K",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Bioprospecting of bacteria isolated from the rhizospheric soil of black pepper",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP79",
+                    "author":"S. Shabanamol",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Isolation and characterization of endophytic bacteria from Allium Sativum as a potential biocontrol agent",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP80",
+                    "author":"Shainy N K",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Isolation, identification and partial Characterization studies of Quinalphos pesticide degradation by soil isolate",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP81",
+                    "author":"Shabanamol. S",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Review on nutritional and antioxident properties of foxtail millet",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP82",
+                    "author":"Akhila P K",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Evaluation of activities of hibiscus species with special emphasis to its phytochemical potential",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP83",
+                    "author":"Akhila P K",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Antimicrobial property of spider web extracts ",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP84",
+                    "author":"Anjana K",
+                    "content":"Millet Magic sowing sustainable futures- 2023",
+                    "title":"Antibacterial activity of Barrungtonia acutangula crude seed Protein (L.) Gaertn",
+                    "titlepre":"Two day national seminar Millet Magic",
+                    "year":"2023",
+                    "number":"978-93-6013-102-9"
+                },
+                {
+                    "id":"BP85",
+                    "author":"Dr. Shebeeb Khan P",
+                    "content":"Anthology of peer reviewed research articles in Humanities",
+                    "title":"Persian Taste in Indian Culture with Special reference to Biriyani",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP86",
+                    "author":"Dr. Shebeeb Khan P",
+                    "content":"Anthology of peer reviewed research articles in Humanities",
+                    "title":"Portrayal of Malabar food culture on Chelavoor KC's Mappila songs",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP87",
+                    "author":"Dr. Shebeeb Khan P",
+                    "content":"Anthology of peer reviewed research articles in Humanities",
+                    "title":"Tastes of Malabar in the writings of Ibnu Battuta",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP88",
+                    "author":"Dr. Hassan Shareef K P",
+                    "content":"Anthology of peer reviewed research articles in Humanities",
+                    "title":"A study on the traditional foods of Thekkeppuram",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP89",
+                    "author":"Dr. Hassan Shareef K P",
+                    "content":"Anthology of peer reviewed research articles in Humanities",
+                    "title":"Depiction of culinary diversity and hospitality in songs: A study on Calicut",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP90",
+                    "author":"Semiya. P M",
+                    "content":"Anthology of peer reviewed research articles in Humanities",
+                    "title":"Relevance of health maintaining food served in Karkidaka",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP91",
+                    "author":"Semiya. P M",
+                    "content":"Anthology of peer reviewed research articles in Humanities",
+                    "title":"Sadya: The word indicating the food culture of Kerala",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP92",
+                    "author":"Semiya. P M",
+                    "content":"Anthology of peer reviewed research articles in Humanities",
+                    "title":"Transmission of wedding food culture in Thekkeppuram",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP93",
+                    "author":"Raheena P",
+                    "content":"Anthology of peer reviewed research articles in Humanities",
+                    "title":"Women as a subaltern: A critical analysis of servility In That long silence",
+                    "titlepre":"",
+                    "year":"2023",
+                    "number":"978-93-5811-420-1"
+                },
+                {
+                    "id":"BP94",
+                    "author":"Anusha R",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"The future of food : Exploring the potential of cellular agriculture",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP95",
+                    "author":"Aiswarya P M",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"Exploring the trends in nutrition knowledge food preferences and sustainable consumption: A comprehensive analysis",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP96",
+                    "author":"Aiswarya P M",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"Orbiting nutrition: The science and art of space food for astronauts",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP97",
+                    "author":"Noorjahan K",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"Nutritional and functional potential of spent coffee grounds: From macronutrients to health applications",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP98",
+                    "author":"Aiswarya P M",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"Artificial intelligence in food safety",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP99",
+                    "author":"Aiswarya P M",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"Comparative study of enzymatic hydrolyzed collagen peptide from fish born using conventional and microwave assisted extraction",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP100",
+                    "author":"Sujitha. A.P",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"3D food printing: Application and futre perspective",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP101",
+                    "author":"Sujitha. A.P",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"Precision nutrition: crafting health to customized diets",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP102",
+                    "author":"Sujitha. A.P",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"Advancing green extraction: Deep Eutectic solvents unveiled as potent tools for enhanced polyphenol recovery from plants",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP103",
+                    "author":"Nasim Banu B",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"Anthocyanin Extraction: A novel approach bu coupling instantaneous pressure drop and microwave assisted process",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP104",
+                    "author":"Shabanamol. S",
+                    "content":"Byproduct Valourization- A healthy and sustainable approach",
+                    "title":"Role of Nanotechnology in waste valorization",
+                    "titlepre":"Proceedings of Two day national seminar",
+                    "year":"2024",
+                    "number":"978-93-340-3528-5"
+                },
+                {
+                    "id":"BP105",
+                    "author":"Abdul Majeed K",
+                    "content":"Navigating complexity: Agent based models for public policy and business decision making",
+                    "title":"Green marketing initiatives for sustainable development: insights from india's Business landscape",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-4753-0"
+                },
+                {
+                    "id":"BP106",
+                    "author":"Prajeesh Thazhathedath",
+                    "content":"Navigating complexity: Agent based models for public policy and business decision making",
+                    "title":"Exploring the influence of customer4 loyalty programs in shopping malls on customer retention: A case study of Kozhikode District",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-4753-0"
+                },
+                {
+                    "id":"BP107",
+                    "author":"Muneera. D N",
+                    "content":"Navigating complexity: Agent based models for public policy and business decision making",
+                    "title":"Unraveling the non performing Asset crisis in private sector Banks, A comparative study of ICICI and Axis Bank",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-4753-0"
+                },
+                {
+                    "id":"BP108",
+                    "author":"Shana Wahab",
+                    "content":"Navigating complexity: Agent based models for public policy and business decision making",
+                    "title":"The social impact of microfinance institutions on poverty Alleviation and women empowerment in India",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-4753-0"
+                },
+                {
+                    "id":"BP109",
+                    "author":"Shaheer Anaz TV",
+                    "content":"Navigating complexity: Agent based models for public policy and business decision making",
+                    "title":"Reshaping infrastructure development: The Shukuk solution for inclusive capital mobilization in developing nations",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-4753-0"
+                },
+                {
+                    "id":"BP110",
+                    "author":"Abdul Nisam",
+                    "content":"Navigating complexity: Agent based models for public policy and business decision making",
+                    "title":"Examining the influence of celebrity Endorsement of consumer buying behaviour. With special focus on Kerala",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-4753-0"
+                },
+                {
+                    "id":"BP111",
+                    "author":"Dr. Haris M",
+                    "content":"Navigating complexity: Agent based models for public policy and business decision making",
+                    "title":"An overall study on women Enterpreneurship development programmes",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-4753-0"
+                },
+                {
+                    "id":"BP112",
+                    "author":"Radhika P K",
+                    "content":"Navigating complexity: Agent based models for public policy and business decision making",
+                    "title":"Unveiling the dynamics: A statistical Examination of the interplay between national education policy 2020 and economic growth",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-4753-0"
+                },
+                {
+                    "id":"BP113",
+                    "author":"Safa Hanan, A.K Shanawas",
+                    "content":"Navigating complexity: Agent based models for public policy and business decision making",
+                    "title":"Navigating trust and Technology: Overcoming Barriers to digital banking adoption in India",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-4753-0"
+                },
+                {
+                    "id":"BP114",
+                    "author":"Lukmanul Hakeem M, Zanoobiya K M, Thahsin V K",
+                    "content":"Navigating complexity: Agent based models for public policy and business decision making",
+                    "title":"Financial inclusion in Rural areas: A comparative study of minority groups in Malappuram District",
+                    "titlepre":"",
+                    "year":"2024",
+                    "number":"978-93-340-4753-0"
+                },
+
                 
             ],
             journalstable:[],

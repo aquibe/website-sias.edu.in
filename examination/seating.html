@@ -41,38 +41,45 @@
             body{
                 font-family:'Open Sans', sans-serif;
             }
-            .acc-head{
-                background-color: #30403a;
-                color: white;
-                margin: 0;
-                padding: 10px 20px;
-            }
-            
-            .acc-heading{
-                font-weight: 700;
-                color: #e0e0e0;
-                font-size: 20px;
-                margin: 0;
-                padding: 0; 
-            }
             
             .t-row:hover{
-                color: black;
+                color: blue;
                 background-color: #e0e0e0;
+                margin: 0;
+                padding: 0;
             }
-            .table-head{
-               
-               background-color: #127C38;
-               color: #fff;
+            .t-row:hover.t-text{
+                color: blue;
+            } 
+            .t-text{
+                margin: 0;
+                padding: 4px 0;
+                font-size: 16px;
+                font-weight: 600;
+                color: #000;
             }
-            
-            .table-heading{
-                padding: 6px 0; 
+            .t-text:hover{
+            color: blue;
             }
-           .table-text{
-               padding: 4px 0 4px 10px;
-           }
+            @keyframes blink {
+                0% {
+                    background: linear-gradient(#008000, #00FF00);
+                    -webkit-background-clip: text;
+                }
+     
+                100% {
+                    background: linear-gradient(#3CE7D7, #000FFF);
+                    -webkit-background-clip: text;
+                }
+            }
+            .t-active{
+                font-weight: 900;
+                font-size: 12px;
+                color: transparent;
+                animation:blink 1s infinite;
+            }
         </style>
+        <script src="../scripts/vue.js"></script>
 </head>
 
 <body>
@@ -126,48 +133,20 @@
                 <div class="col-12 col-md-9 order-1 order-md-2" id="page-content">
                     <p class="head1" >Seating Arrangements</p>
                     <div class="yellow-line-2"></div>
-                    <table width="100%" class="mt-4">
-                        <!-- <tr class="text-center table-head">
-                            <th class="table-heading">Name of the Course</th>
-                            <th class="table-heading">Offered By</th>
-                        </tr> --> 
-                        <tr class="t-row">
-                            <td  style="width: 200px;"><a href="../docs/examination/seating/21-11-2024.pdf" target="_blank"><button class="btn btn-success btn-block m-2">21 - 11 - 2024</button></a></td>
+
+                    <table class="table">
+                        <tr class="t-row" v-for="i in data">
+                            <td>
+                                <a target="_blank" :href="i.file.url">
+                                    <p class="t-text">
+                                        {{i.text}}
+                                        <span class="t-active" v-if="i.isNew"> (New)</span>
+                                    </p>
+                                </a>
+                            </td>
                         </tr>
-                        <tr class="t-row">
-                            <td  style="width: 200px;"><a href="#"><button class="btn btn-secondary btn-block m-2">19 - 11 - 2024</button></a></td>
-                        </tr>
-                        <tr class="t-row">
-                            <td  style="width: 200px;"><a href="#"><button class="btn btn-secondary btn-block m-2">18 - 11 - 2024</button></a></td>
-                        </tr>
-                        <tr class="t-row">
-                            <td  style="width: 200px;"><a href="#"><button class="btn btn-secondary btn-block m-2">15 - 11 - 2024</button></a></td>
-                        </tr>
-                        <tr class="t-row">
-                            <td  style="width: 200px;"><a href="#"><button class="btn btn-secondary btn-block m-2">14 - 11 - 2024</button></a></td>
-                        </tr>
-                        <tr class="t-row">
-                            <td  style="width: 200px;"><a href="#"><button class="btn btn-secondary btn-block m-2">12 - 11 - 2024</button></a></td>
-                        </tr>
-                        <tr class="t-row">
-                            <td  style="width: 200px;"><a href="#"><button class="btn btn-secondary btn-block m-2">11 - 11 - 2024</button></a></td>
-                        </tr>
-                        <tr class="t-row">
-                            <td  style="width: 200px;"><a href="#" ><button class="btn btn-secondary btn-block m-2">08 - 11 - 2024</button></a></td>
-                        </tr>
-                        <tr class="t-row">
-                            <td  style="width: 200px;"><a href="#" ><button class="btn btn-secondary btn-block m-2">07 - 11 - 2024</button></a></td>
-                        </tr>
-                        <tr class="t-row">
-                            <td  style="width: 200px;"><a href="#" ><button class="btn btn-secondary btn-block m-2">06 - 11 - 2024</button></a></td>
-                        </tr>
-                        <tr class="t-row">
-                          
-                            <td  style="width: 200px;"><a href="#" ><button class="btn btn-secondary btn-block m-2">04 - 11 - 2024</button></a></td>
-                        </tr>
-                        
-                    </table>
                     
+                    </table>    
                 </div>
             </div>
         </div>
@@ -204,6 +183,39 @@
     <script src="../js/jquery.slim.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
     
+    <script>
+        const App={
+            data(){
+                return {
+                    data:[]
+                }
+            },
+            methods:{
+                async getData(){
+                    let d=await fetch('https://siasapp.ap-1.evennode.com/api/exam/seating',{
+                        method:"GET"
+                    }).then(function(resp){return resp.json()})
+                    .then((function(data){
+                        return data
+                    })).catch(function(err){
+                        console.log(err)
+                    })
+              
+                    this.changeData(d)
+                },
+                changeData(data){   
+                    console.log(data.data)     
+                    this.data=data.data
+                }
+            },
+        
+            created(){
+                this.getData()
+            } 
+        }   
+
+        Vue.createApp(App).mount('#page-content')
+    </script>
    
 </body>
 

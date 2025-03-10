@@ -66,6 +66,9 @@ document.getElementById('sidebar').innerHTML=
 <div class="sidebar-item" id="a10">
 <a href="./organogram.html"><p class="sidebar-text">ORGANOGRAM</p></a>
 </div>
+<div class="sidebar-item" id="a14">
+<a href="./accreditation-ranking.html"><p class="sidebar-text">ACCREDITATIONS & RANKING</p></a>
+</div>
 <div class="sidebar-item" id="a11">
 <a href="./recognitions.html"><p class="sidebar-text">RECOGNITIONS</p></a>
 </div>

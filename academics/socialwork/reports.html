@@ -19,7 +19,29 @@
         body{
             font-family:'Open Sans', sans-serif;
         }
-        
+        .cust-box {
+            margin-bottom: 30px;
+            border-radius: 20px;
+            border: 4px solid #127C38;
+            background-color: #fff;
+        }
+
+        .box-text {
+            padding: 10px 0;
+            color: #000;
+            font-size: 22px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .cust-box:hover {
+            box-shadow: 0 0 10px 1px grey;
+            transform: scale(1.03, 1.03);
+            transition: all 0.3s ease-in-out;
+            -webkit-transform: scale(1.03, 1.03);
+            -webkit-transition: all 0.3s ease-in-out;
+            border: 5px solid #F55353;
+        }
     </style>
 </head>
   <body>
@@ -72,15 +94,18 @@
 
                 <div class="col-12 col-md-9 order-1 order-md-2" id="page-content">
                      <!-- under construction start -->
-                     <div class="text-center " style="margin: 70px 0 70px;">
-                        <div class="spinner-grow text-success"></div>
-                        <div class="spinner-grow text-warning"></div>
-                        <div class="spinner-grow text-success"></div>
-                        <div class="spinner-grow text-warning"></div>
-                        <div class="spinner-grow text-success"></div>
-                        
-                        <p style="font-weight: 600;font-size: 20px;" class="mt-4">THIS PAGE IS UNDER MAINTENANCE</p>
-                    </div>
+                      <p class="head1">Annual Reports</p>
+                      <div class="yellow-line-2"></div>
+                     <div class="row mt-4">
+
+                        <div class="col-6 col-md-4">
+                            <a href="../../docs/academics/social-work/annual-report-2025.pdf" target="_blank">
+                                <div class="cust-box">
+                                    <p class="box-text text-center">2025</p>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
                     <!-- under construction end -->
                     <div style="background-color: #fff;" class="d-block d-md-none">
                         <hr width="100%" size="2px" color="black">
