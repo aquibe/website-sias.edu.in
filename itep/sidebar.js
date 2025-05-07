@@ -44,7 +44,7 @@ document.getElementById('sidebar').innerHTML = `
                         </div>
 
                         <div class="sidebar-item" id="sbi2">
-                            <a href="./facilities-added-in-last-quater.html"><p class="sidebar-text">FACILITIES ADDED IN LAST QUATER</p></a>
+                            <a href="./facilities-added-in-last-quarter.html"><p class="sidebar-text">FACILITIES ADDED IN LAST QUARTER</p></a>
                         </div>
                         
 
