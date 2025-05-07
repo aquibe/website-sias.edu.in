@@ -10,6 +10,7 @@ document.getElementById('top').innerHTML=
                     <a href="./admission.html"><span class="text-white">Admission</span></a>&nbsp;|&nbsp;
                     <a href="./alumni.html"><span class="text-white">Alumni</span></a>&nbsp;|&nbsp;
                     <a href="./nirf.html"><span class="text-white">NIRF</span></a>&nbsp;|&nbsp; 
+                    <a href="./itep/index.html"><span class="text-white">ITEP</span></a>&nbsp;|&nbsp; 
                     <a href="./library.html"><span class="text-white">Library</span></a> &nbsp;|&nbsp; 
 
                     <a href="./login.html"><span class="text-white">Login</span></a> &nbsp;|&nbsp;
@@ -118,6 +119,8 @@ document.getElementById('footer').innerHTML=
                     <a href="./academics/commerce/index.html"><p class="footer-text">Dept of Commerce (Finance)</p></a>
                     <a href="./academics/management/index.html"><p class="footer-text">Dept of Management Studies</p></a>
                     <a href="./academics/economics/index.html"><p class="footer-text">Dept of Economics</p></a>
+                    <a href="./academics/socialwork/index.html"><p class="footer-text">Dept of Social Work</p></a>
+
                     <a href="./academics/if/index.html"><p class="footer-text">Dept of Commerce (Islamic Finance)</p></a>
                     <a href="./academics/jmc/index.html"><p class="footer-text">Dept of Journalism & Mass Communication</p></a>
                     <a href="./academics/english/index.html"><p class="footer-text">Dept of English</p></a>

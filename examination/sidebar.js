@@ -6,7 +6,7 @@ document.getElementById('sidebar').innerHTML=`
 <a href="./notification.html"><p class="sidebar-text">NOTIFICATION</p></a>
 </div>
 <div class="sidebar-item " id="sb2">
-<a href="https://safi.embase.in/exam/#/sign-in" target="_blank"><p class="sidebar-text">REGISTRATION</p></a>
+<a href="https://erp.sias.edu.in/exam/#/sign-in" target="_blank"><p class="sidebar-text">REGISTRATION</p></a>
 </div>
 <div class="sidebar-item " id="sb3">
 <a href="./timetable.html"><p class="sidebar-text">TIMETABLE</p></a>
@@ -15,7 +15,7 @@ document.getElementById('sidebar').innerHTML=`
 <a href="./seating.html"><p class="sidebar-text">SEATING ARRANGEMENT</p></a>
 </div>
 <div class="sidebar-item " id="sb5">
-<a href="https://safi.embase.in/exam/#/sign-in" target="_blank"><p class="sidebar-text">HALL TICKET</p></a>
+<a href="https://erp.sias.edu.in/exam/#/sign-in" target="_blank"><p class="sidebar-text">HALL TICKET</p></a>
 </div>
 <div class="sidebar-item " id="sb6">
 <a href="./results.html"><p class="sidebar-text">RESULT</p></a>
