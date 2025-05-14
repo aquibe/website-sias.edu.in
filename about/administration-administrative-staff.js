@@ -6,9 +6,9 @@ const App = {
                 { id: 'o2', name: 'Mr. Shaheed K., M.Com', desg: 'Senior Accountant' },
                 { id: 'o3', name: 'Ms. Shapna Nair K.K.; Dip. in Comp. Engg.', desg: 'Section Officer' },
                 { id: 'o4', name: 'Mr. Junaid A.V.; M.Sc.', desg: 'Office Secretary' },
-                { id: 'o5', name: 'Ms. Soumya P.C.', desg: 'Receptionist cum Office Assistant' },
-                { id: 'o6', name: 'Mr. Muhammed Anas P.', desg: 'Accountant' },
-                { id: 'o7', name: 'Mr. Ameen M.V.', desg: 'Junior Accountant' },
+                { id: 'o5', name: 'Ms. Soumya P.C. , B.A.', desg: 'Receptionist cum Office Assistant' },
+                { id: 'o6', name: 'Mr. Muhammed Anas P. , M.Com', desg: 'Accountant' },
+                { id: 'o7', name: 'Mr. Ameen M.V. , M.Com', desg: 'Junior Accountant' },
                 { id: 'o8', name: 'Mr. Ashraf K.T., BA', desg: 'Cashier' },
             ],
             support: [

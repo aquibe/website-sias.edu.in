@@ -1,11 +1,9 @@
 document.getElementById('sidebar').innerHTML = `
                         <div class="sidebar-item" id="sb0">
-                            <a href="./index.html"><p class="sidebar-text">ABOUT COURSE</p></a>
+                            <a href="./index.html"><p class="sidebar-text">ABOUT ITEP</p></a>
                         </div>
                         
-                        <div class="sidebar-item" id="sb1">
-                            <a href="./selection-committee.html"><p class="sidebar-text">SELECTION COMMITTEE</p></a>
-                        </div>
+                       
                         <div class="sidebar-item" id="sb2">
                             <a href="./programmes.html"><p class="sidebar-text">PROGRAMMES</p></a>
                         </div>
