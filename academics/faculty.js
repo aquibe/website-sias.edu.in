@@ -112,17 +112,7 @@ const App = {
                     "desg": "Assistant Professor and Head",
                     "dept": "Mathematics",
                 },
-                {
-                    "id": "MT09",
-                    "img1": "../../images/faculty/MT09.jpg",
-                    "img2": "../images/faculty/MT09.jpg",
-                    "profile1": "../view-profile.html?MT09",
-                    "profile2": "./view-profile.html?MT09",
-                    "deptid": "MAT",
-                    "name": "Ms. Lulu Farsana CO",
-                    "desg": "Assistant Professor",
-                    "dept": "Mathematics",
-                },
+                
                 {
                     "id": "MT12",
                     "img1": "../../images/faculty/MT12.jpg",
@@ -713,17 +703,7 @@ const App = {
                     "desg": "Assistant Professor",
                     "dept": "Psychology"
                 },
-                {
-                    "id": "PS08",
-                    "img1": "../../images/faculty/PS08.jpg",
-                    "img2": "../images/faculty/PS08.jpg",
-                    "profile1": "../view-profile.html?PS08",
-                    "profile2": "./view-profile.html?PS08",
-                    "deptid": "PSY",
-                    "name": "Mr. Gokul Bijoy",
-                    "desg": "Assistant Professor",
-                    "dept": "Psychology"
-                },
+                
                 {
                     "id": "PS09",
                     "img1": "../../images/faculty/PS09.jpg",
