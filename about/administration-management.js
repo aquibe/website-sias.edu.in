@@ -92,7 +92,7 @@ const App={
                 },
                 {
                     "id":"10",
-                    "name":"Dr. 18.Mr. Yusuf Nalwala"
+                    "name":"Mr. Yusuf Nalwala"
                 },
                 {
                     "id":"11",
@@ -190,10 +190,7 @@ const App={
                     "id":"20",
                     "name":"Mr. M. Salahuddin"
                 },
-                {
-                    "id":"21",
-                    "name":"Dr.K.K. Usman"
-                },
+                
                 {
                     "id":"22",
                     "name":"Mr. M. A. Yusuff Ali"
@@ -222,7 +219,7 @@ const App={
     //     this.fetchData()
     // },
     // methods:{
-    //     async fetchData(){
+    //     async fetchData(){usud
     //         var temp;
     //         let req = new Request('https://aquibe.github.io/e-timetable/test.json');
     //         await fetch(req)

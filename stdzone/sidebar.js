@@ -56,4 +56,7 @@ document.getElementById('sidebar').innerHTML=`
 </div>
 <div class="sidebar-item " id="sba19">
 <a href="https://embase.page.link?apn=com.mincetech.embase4&ibi=com.embaseiOS.student&isi=1560303177&link=https%3A%2F%2Fwww.embase.in%3Fclg%3D253" target="_blank"><p class="sidebar-text">DOWNLOAD APP</p></a>
+</div>
+<div class="sidebar-item " >
+<a href="../docs/general/hostel-application-2025.pdf" target="_blank"><p class="sidebar-text">HOSTEL APPLICATION</p></a>
 </div>`
