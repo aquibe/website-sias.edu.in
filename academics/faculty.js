@@ -670,17 +670,7 @@ const App = {
                     "dept": "Microbiology"
                 },
                
-                {
-                    "id": "PS01",
-                    "img1": "../../images/faculty/PS01.jpg",
-                    "img2": "../images/faculty/PS01.jpg",
-                    "profile1": "../view-profile.html?PS01",
-                    "profile2": "./view-profile.html?PS01",
-                    "deptid": "PSY",
-                    "name": "Ms. Karthika S K",
-                    "desg": "Assistant Professor and Head",
-                    "dept": "Psychology"
-                },
+                
                 {
                     "id": "PS06",
                     "img1": "../../images/faculty/PS06.jpg",
@@ -703,18 +693,40 @@ const App = {
                     "desg": "Assistant Professor",
                     "dept": "Psychology"
                 },
-                
                 {
-                    "id": "PS09",
-                    "img1": "../../images/faculty/PS09.jpg",
-                    "img2": "../images/faculty/PS09.jpg",
-                    "profile1": "../view-profile.html?PS09",
-                    "profile2": "./view-profile.html?PS09",
+                    "id": "PS10",
+                    "img1": "../../images/faculty/PS10.jpg",
+                    "img2": "../images/faculty/PS10.jpg",
+                    "profile1": "../view-profile.html?PS10",
+                    "profile2": "./view-profile.html?PS10",
                     "deptid": "PSY",
-                    "name": "Ms. Salva",
+                    "name": "Ms. Akshara",
                     "desg": "Assistant Professor",
                     "dept": "Psychology"
                 },
+                {
+                    "id": "PS11",
+                    "img1": "../../images/faculty/PS11.jpg",
+                    "img2": "../images/faculty/PS11.jpg",
+                    "profile1": "../view-profile.html?PS11",
+                    "profile2": "./view-profile.html?PS11",
+                    "deptid": "PSY",
+                    "name": "Ms. Sandra P.",
+                    "desg": "Assistant Professor",
+                    "dept": "Psychology"
+                },
+                {
+                    "id": "PS12",
+                    "img1": "../../images/faculty/PS12.jpg",
+                    "img2": "../images/faculty/PS12.jpg",
+                    "profile1": "../view-profile.html?PS12",
+                    "profile2": "./view-profile.html?PS12",
+                    "deptid": "PSY",
+                    "name": "Ms. Anjali M.",
+                    "desg": "Assistant Professor",
+                    "dept": "Psychology"
+                },
+                
                 {
                     "id": "MS01",
                     "img1": "../../images/faculty/MS01.jpg",
