@@ -125,6 +125,8 @@ document.getElementById('footer').innerHTML=
                     <a href="../../academics/english/index.html"><p class="footer-text">Dept of English</p></a>
                     <a href="../../academics/is/index.html"><p class="footer-text">Dept of Islamic Studies </p></a>
                     <a href="../../academics/public_administration/index.html"><p class="footer-text">Dept of Public Administration</p></a>
+                    <a href="../../academics/multimedia/index.html"><p class="footer-text">Dept of Multimedia</p></a>
+
                 </div>
                 
                 <div class="col-12 col-sm-6 col-md-3">

@@ -488,28 +488,6 @@ const App = {
                     "dept": "Food Technology"
                 },
                 {
-                    "id": "FT23",
-                    "img1": "../../images/faculty/FT23.jpg",
-                    "img2": "../images/faculty/FT23.jpg",
-                    "profile1": "../view-profile.html?FT23",
-                    "profile2": "./view-profile.html?FT23",
-                    "deptid": "FT",
-                    "name": "Ms. Midhuna K.",
-                    "desg": "Assistant Professor",
-                    "dept": "Food Technology"
-                },
-                {
-                    "id": "FT24",
-                    "img1": "../../images/faculty/FT24.jpg",
-                    "img2": "../images/faculty/FT24.jpg",
-                    "profile1": "../view-profile.html?FT24",
-                    "profile2": "./view-profile.html?FT24",
-                    "deptid": "FT",
-                    "name": "Ms. Maya K.V.",
-                    "desg": "Assistant Professor",
-                    "dept": "Food Technology"
-                },
-                {
                     "id": "CM21",
                     "img1": "../../images/faculty/CM21.jpg",
                     "img2": "../images/faculty/CM21.jpg",
