@@ -553,6 +553,27 @@ const App={
                     "year":"2022-2023",
                     "deptid":"PHY"
                 },
+                 {
+                    "id":"84",
+                    "name":"Introduction to Nanoscience and Nanotechnology",
+                    "dept":"Dept. of Physics",
+                    "year":"2022-2023",
+                    "deptid":"PHY"
+                },
+                 {
+                    "id":"85",
+                    "name":"Digital & Social Media Marketing",
+                    "dept":"Dept. of Mulltimedia",
+                    "year":"2024-25",
+                    "deptid":"MM"
+                },
+                   {
+                    "id":"86",
+                    "name":"Layout Designing & Pagination",
+                    "dept":"Dept. of Mulltimedia",
+                    "year":"2024-25",
+                    "deptid":"MM"
+                },
 
             ],
             a5:[],
@@ -574,7 +595,9 @@ const App={
             bif:[],
             is:[],
             eco:[],
-            pa:[]
+            pa:[],
+            msw:[],
+            mm:[],
         }
     },
     methods:{
@@ -594,7 +617,12 @@ const App={
             this.ca=this.courses.filter((c)=>c.deptid=='CA').reverse();
             this.pa=this.courses.filter((c)=>c.deptid=='PA').reverse();
             this.csai=this.courses.filter((c)=>c.deptid=="CSAI").reverse()
+            this.msw=this.courses.filter((c)=>c.deptid=="MSW").reverse()
+            this.mm=this.courses.filter((c)=>c.deptid=="MM").reverse()
 
+
+            this.a9=this.courses.filter((c)=>c.year=='2024-2025')
+            this.a8=this.courses.filter((c)=>c.year=='2023-2024')
             this.a7=this.courses.filter((c)=>c.year=='2022-2023')
             this.a6=this.courses.filter((c)=>c.year=='2021-2022')
             this.a5=this.courses.filter((c)=>c.year=='2020-2021')

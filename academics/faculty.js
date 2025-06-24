@@ -974,7 +974,7 @@ const App = {
                     "profile1": "../view-profile.html?PS11",
                     "profile2": "./view-profile.html?PS11",
                     "deptid": "PSY",
-                    "name": "Ms. Twinkl Baby",
+                    "name": "Ms. Twinkle Baby",
                     "desg": "Assistant Professor",
                     "dept": "Psychology"
                 },
