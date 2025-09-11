@@ -159,6 +159,17 @@
     <script>
         document.getElementById('nav3').classList.add('nav-text-active')
         document.getElementById('dsb1').classList.add('sidebar-item-active')
+
+        //add publication page
+        const target = document.querySelector("#dsb4");
+        const newEl = document.createElement("div");
+        newEl.classList.add('sidebar-item')
+        newEl.id='dsbp'
+        newEl.innerHTML = `
+            <a href="./publications.html"><p class="sidebar-text">PUBLICATIONS</p></a>
+        </div>`
+
+        target.insertAdjacentElement("afterend", newEl);
     </script>
     <script src="../../js/jquery.slim.min.js"></script>
     <script src="../../js/bootstrap.bundle.min.js"></script>

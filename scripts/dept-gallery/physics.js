@@ -6,7 +6,7 @@ const App={
     },
     methods:{
         async getData(){
-            let d=await fetch('https://siasapp.ap-1.evennode.com/api/department/physics/gallery',{
+            let d=await fetch('https://sias.fugipie.in/api/department/physics/gallery',{
                 method:"GET"
             }).then(function(resp){return resp.json()})
             .then((function(data){

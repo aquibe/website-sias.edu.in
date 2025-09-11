@@ -857,6 +857,17 @@ const App = {
                     "dept": "Public Administration"
                 },
                 {
+                    "id": "PA04",
+                    "img1": "../../images/faculty/PA04.jpg",
+                    "img2": "../images/faculty/PA04.jpg",
+                    "profile1": "../view-profile.html?PA04",
+                    "profile2": "./view-profile.html?PA04",
+                    "deptid": "PA",
+                    "name": "Ms. Athira M.",
+                    "desg": "Assistant Professor",
+                    "dept": "Public Administration"
+                },
+                {
                     "id": "PE02",
                     "img1": "../../images/faculty/PE02.jpg",
                     "img2": "../images/faculty/PE02.jpg",
@@ -956,17 +967,7 @@ const App = {
                     "desg": "Assistant Professor",
                     "dept": "Psychology"
                 },
-                {
-                    "id": "PS10",
-                    "img1": "../../images/faculty/PS10.jpg",
-                    "img2": "../images/faculty/PS10.jpg",
-                    "profile1": "../view-profile.html?PS10",
-                    "profile2": "./view-profile.html?PS10",
-                    "deptid": "PSY",
-                    "name": "Ms. Amna Fathima",
-                    "desg": "Assistant Professor",
-                    "dept": "Psychology"
-                },
+                
                  {
                     "id": "PS11",
                     "img1": "../../images/faculty/PS11.jpg",
@@ -975,6 +976,17 @@ const App = {
                     "profile2": "./view-profile.html?PS11",
                     "deptid": "PSY",
                     "name": "Ms. Twinkle Baby",
+                    "desg": "Assistant Professor",
+                    "dept": "Psychology"
+                },
+                {
+                    "id": "PS12",
+                    "img1": "../../images/faculty/PS12.jpg",
+                    "img2": "../images/faculty/PS12.jpg",
+                    "profile1": "../view-profile.html?PS12",
+                    "profile2": "./view-profile.html?PS12",
+                    "deptid": "PSY",
+                    "name": "Mr. Rashin P.K.",
                     "desg": "Assistant Professor",
                     "dept": "Psychology"
                 },
