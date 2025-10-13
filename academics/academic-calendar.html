@@ -65,55 +65,15 @@
             <div class="row">
                 <div class="col-12  col-md-3 order-2 order-md-1">
                     <div class="side-bar"  id="sidebar">
-                        <div class="sidebar-item ">
-                            <a href="./index.html"><p class="sidebar-text">DEPARTMENTS</p></a>
-                        </div>
-                        <div class="sidebar-item">
-                            <a href="./programmes.html"><p class="sidebar-text">PROGRAMMES OFFERED</p></a>
-                        </div>
-                        <div class="sidebar-item sidebar-item-active">
-                            <a href="./academic-calendar.html"><p class="sidebar-text">ACADEMIC CALENDAR</p></a>
-                        </div>
-                        <div class="sidebar-item">
-                            <a href="./learning-outcomes.html"><p class="sidebar-text">LEARNING OUTCOMES</p></a>
-                        </div>
-                        <div class="sidebar-item">
-                            <a href="./other-courses.html"><p class="sidebar-text">ADD-ON / CERTIFICATE COURSES</p></a>
-                        </div>
-                        <div class="sidebar-item">
-                            <a href="./faculty.html"><p class="sidebar-text">FACULTY</p></a>
-                        </div>
-                        <div class="sidebar-item ">
-                            <a href="./timetable.html"><p class="sidebar-text">TIMETABLE</p></a>
-                        </div>
-                        <div class="sidebar-item ">
-                            <a href="./nptel.html"><p class="sidebar-text">SWAYAM-NPTEL</p></a>
-                        </div>
-                        <div class="sidebar-item ">
-                            <a href="./study-in-india.html"><p class="sidebar-text">STUDY IN INDIA</p></a>
-                        </div>
-                        <div class="sidebar-item ">
-                            <a href="./iec.html"><p class="sidebar-text">INTERNAL EXAMINATION COMMITTEE</p></a>
-                        </div>
-                        <div class="sidebar-item ">
-                            <a href="./capacity-building.html"><p class="sidebar-text">CAPACITY BUILDING / SKILL ENHANCEMENT</p></a>
-                        </div>
+                     
                     </div>
                     
                 </div>
 
                 <div class="col-12 col-md-9 order-1 order-md-2" id="page-content">
-                    <!-- under construction start -->
-                    <div class="text-center " style="margin: 70px 0 70px;">
-                        <div class="spinner-grow text-success"></div>
-                        <div class="spinner-grow text-warning"></div>
-                        <div class="spinner-grow text-success"></div>
-                        <div class="spinner-grow text-warning"></div>
-                        <div class="spinner-grow text-success"></div>
-                        
-                        <p style="font-weight: 600;font-size: 20px;" class="mt-4">THIS PAGE IS UNDER MAINTENANCE</p>
-                    </div>
-                    <!-- under construction end -->
+                    <object data="../docs/academics/academic-calendar/2025-26.pdf" type="application/pdf" width="100%" height="600px" id="viewer"> 
+                        <p>Your browser does not support pdf.<br> <a rel="external" href="../docs/academics/academic-calendar/2025-26.pdf" id="d-link1">Click here to download the PDF</a></p>
+                    </object>
                     <div style="background-color: #fff;" class="d-block d-md-none">
                         <hr width="100%" size="2px" color="black">
                     </div>
@@ -144,8 +104,10 @@
     </section>
 
     <script src="../scripts/over-other.js"></script>
-    <script >
+      <script src="./sidebar.js"></script>
+    <script>
         document.getElementById('nav3').classList.add('nav-text-active')
+        document.getElementById('sb3').classList.add('sidebar-item-active')
     </script>
     <script src="../js/jquery.slim.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
