@@ -134,17 +134,7 @@ const App = {
                     "desg": "Assistant Professor",
                     "dept": "Chemistry",
                 },
-                  {
-                    "id": "CM14",
-                    "img1": "../../images/faculty/CM14.jpg",
-                    "img2": "../images/faculty/CM14.jpg",
-                    "profile1": "../view-profile.html?CM14",
-                    "profile2": "./view-profile.html?CM14",
-                    "deptid": "COM",
-                    "name": "Mr. A.K. Shanawas",
-                    "desg": "Assistant Professor and Head",
-                    "dept": "Commerce",
-                },
+                
                 {
                     "id": "CM21",
                     "img1": "../../images/faculty/CM21.jpg",
@@ -227,18 +217,6 @@ const App = {
                     "desg": "Assistant Professor",
                     "dept": "Commerce",
                 },
-                {
-                    "id": "CM33",
-                    "img1": "../../images/faculty/CM33.jpg",
-                    "img2": "../images/faculty/CM33.jpg",
-                    "profile1": "../view-profile.html?CM33",
-                    "profile2": "./view-profile.html?CM33",
-                    "deptid": "COM",
-                    "name": "Mr. Muhammed Rizwan N.K.",
-                    "desg": "Assistant Professor",
-                    "dept": "Commerce",
-                },
-             
                 {
                     "id": "CS03",
                     "img1": "../../images/faculty/CS03.jpg",
