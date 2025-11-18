@@ -21,7 +21,7 @@ document.getElementById('top').innerHTML=
     </div>
 </div>
 </div>
-<div style="background-color: white;width: 100%;">
+<div class="navbar-light-bg">
 <div class="container">
     <nav class="navbar navbar-expand-xl  navbar-custom" id="navbar">
         <img src="../../images/sias-logo.png" id="navbar-logo" class="custom-navbar-logo" >
@@ -71,7 +71,7 @@ document.getElementById('footer').innerHTML=
                     <div class="row">
                         <div class="col-12">
                             <p class="footer-head">SAFI INSTITUTE OF ADVANCED STUDY (AUTONOMOUS)</p>
-                            <div class="yellow-line"></div>
+                            <div class="yellow-line-footer"></div>
                             <div class="resplayer-footer">
                                 <iframe src="https://www.youtube.com/embed/SR8pMwc3P5w?rel=0&showinfo=0&autoplay=0" frameborder="0"
                                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -106,7 +106,7 @@ document.getElementById('footer').innerHTML=
                 </div>
                 <div class="col-12 col-sm-6 col-md-3">
                     <p class="footer-head">ACADEMICS</p>
-                    <div class="yellow-line"></div>
+                    <div class="yellow-line-footer"></div>
                     <br>
                     <a href="../../academics/biotechnology/index.html"><p class="footer-text">Dept of Biotechnology</p></a>
                     <a href="../../academics/microbiology/index.html"><p class="footer-text">Dept of Microbiology</p></a>
@@ -131,7 +131,7 @@ document.getElementById('footer').innerHTML=
                 
                 <div class="col-12 col-sm-6 col-md-3">
                     <p class="footer-head">USEFUL LINKS</p>
-                    <div class="yellow-line"></div>
+                    <div class="yellow-line-footer"></div>
                     <br>
                     <a href="../../examination/index.html"><p class="footer-text">Examination</p></a>
 

@@ -1,5 +1,5 @@
 .head1{
-    color: #000;
+    color: #0d2724;
     font-weight: 700;
     font-size: 25px;
     margin: 0;
@@ -23,7 +23,7 @@
 
 .yellow-line-2{
     margin: 2px 0 10px;
-    background-color: #FED100;
+    background-color: #C5A448;
     border-radius: 30px;
     width: 100px;
     height: 3px;
@@ -31,7 +31,6 @@
 
 @media only screen and (max-width: 576px) {
     .head1{
-        color: #000;
         font-weight: 700;
         font-size: 18px;
         margin: 0;
@@ -39,7 +38,6 @@
     }
     .text1{
         margin: 5px 0 0 0;
-        color: #505050;
         font-size: 14px;
         text-align: justify;
     }

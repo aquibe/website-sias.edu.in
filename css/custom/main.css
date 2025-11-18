@@ -1,6 +1,6 @@
 body {
     font-family: 'Saira', sans-serif;
-
+    background-color: #FEFAEF;
 }
 
 .resplayer {
@@ -18,14 +18,14 @@ body {
 
 .yellow-line {
     margin: 6px 0 10px;
-    background-color: #FED100;
+    background-color: #C5A448;
     border-radius: 30px;
     width: 100px;
     height: 4px;
 }
 
 .bg-cust-dark {
-    background-color: #efefef;
+    background-color: #FEFAEF;
     padding: 30px 0;
 }
 
@@ -68,20 +68,19 @@ body {
 }
 
 .welcome-body {
-    width: 78%;
-    margin-left: 11%;
+    width: 100%;
     position: relative;
     margin-top: 10px;
     z-index: 2;
     border: none;
     border-radius: 4px;
-    background-color: #e0e0e0;
+    background-color: #ffffff;
     padding: 12px 20px;
-    border-bottom: #127C38 2px solid;
+    border-left: #17433E 4px solid;
 }
 
 .welcome-head {
-    color: black;
+    color: #091B19;
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 6px;
@@ -90,7 +89,7 @@ body {
 }
 
 .welcome-text {
-    color: black;
+    color: rgb(24, 24, 24);
     font-size: 15px;
     font-weight: 400;
     text-align: justify;
@@ -98,7 +97,7 @@ body {
 }
 
 .welcome-button {
-    background-color: #127C38;
+    background-color: #C9A645;
     color: white;
     padding: 8px 30px;
     border: none;
@@ -139,7 +138,7 @@ body {
 }
 
 .page-head {
-    color: black;
+    color: #16433E;
     font-weight: 700;
     font-size: 30px;
     padding: 0;
@@ -176,7 +175,7 @@ body {
 
 .happening-card {
     height: 170px;
-    background-color: white;
+    background-color: #FEFAEF;
     margin-bottom: 15px;
 }
 
@@ -222,17 +221,17 @@ body {
 
 .happening-card-button {
     margin-top: 10px;
-    color: #127C38;
+    color: #16433E;
     background-color: white;
     padding: 4px 15px;
-    border: 1px solid #127C38;
+    border: 1px solid #16433E;
     font-size: 16px;
     font-weight: 600;
 }
 
 .happening-card-button:hover {
     color: white;
-    background-color: #127C38;
+    background-color: #16433E;
 }
 
 .news-body {
@@ -266,9 +265,9 @@ body {
 }
 
 .achievements-green {
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 30px;
-    background: rgba(18, 124, 56, 0.8);
+    background: rgba(19, 19, 19, 0.8);
 }
 
 .achievement-head {
@@ -281,7 +280,7 @@ body {
 
 .yellow-line-center {
     margin: 6px 0 20px;
-    background-color: #FED100;
+    background-color: #C5A448;
     border-radius: 30px;
     width: 10%;
     height: 4px;
@@ -357,7 +356,7 @@ body {
     position: absolute;
     bottom: 0;
     padding: 20px 0;
-    background: rgba(29, 148, 76, 0.8);
+    background: rgba(23, 67, 62, 0.8);
     width: 100%;
     text-align: center;
 }
@@ -366,7 +365,7 @@ body {
     position: absolute;
     top: 0;
     padding: 20px 0;
-    background: rgba(29, 148, 76, 0.8);
+    background: rgba(29, 148, 77, 0.925);
     width: 100%;
     text-align: center;
 }
@@ -405,7 +404,7 @@ ul {
 
 .features li {
     padding-left: 6px;
-    color: gray;
+    color: rgb(95, 95, 95);
     font-size: 16px;
     width: 100%;
     margin-bottom: 8px;
@@ -423,8 +422,7 @@ ul {
     }
 
     .welcome-body {
-        width: 92%;
-        margin-left: 4%;
+        width: 100%;
         margin-top: 16px;
     }
 

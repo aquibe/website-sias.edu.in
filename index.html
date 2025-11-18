@@ -106,35 +106,40 @@
         <section>
             <!-- <div><img src="./images/azadi.png" style="width: 12%;position:absolute;z-index:3;right:10px;"></div> -->
             <div class="slider-body">
-                <img src="./images/slides/itep.jpg" alt="The Integrated Teacher Education Programme (ITEP) is a four-year undergraduate programme introduced by the National Council for Teacher Education (NCTE) programmes in safi institute of advanced study">
-                <img src="./images/slides/00.jpg" alt="Beautiful Campus of Safi Institute of Advanced Study">
+                <!-- <img src="./images/slides/itep.jpg" alt="The Integrated Teacher Education Programme (ITEP) is a four-year undergraduate programme introduced by the National Council for Teacher Education (NCTE) programmes in safi institute of advanced study"> -->
                 <img src="./images/slides/2.jpg" alt="Heighest Score in first cycle of naac accreditation. The only A++ graded unaided college in kerala">
                 <img src="./images/slides/0.jpg" alt="KIRF Rank 1 in Unaided College. Youngest Amoung top 85 colleges. Rank 19 in KIRF 2024">
                 <img src="./images/slides/5.jpg" alt="Dr. MK jayaraj Hon. VC, University of calicut inagurates SAFI day in the presence of Mr. venu rajamani ">
                 <img src="./images/slides/7.jpg" alt="Recieving the sir syed Ahmed khan institutional award for the best un-aided arts and science college in kerala from Dr. MK jayaraj Hon. VC, University of calicut">
                 <img src="./images/slides/8.jpg" alt="slide">
                 <img src="./images/slides/9.png" alt="slide">
+                <img src="./images/slides/00.jpg" alt="Beautiful Campus of Safi Institute of Advanced Study">
 
-            </div>
 
-            <div class="welcome-body">
-                <p class="welcome-head">Welcome to SAFI</p>
-                <h2 class="welcome-text">
-                    SAFI Institute of Advanced Study (Autonomous), one of the premier Higher Education Institutions in the
-                    state of Kerala was established in 2005 by the Social Advancement Foundation of India (SAFI), a
-                    Non-profitable Charitable Trust.
-                    It offers 2 Phd , 2 ITEP (Secondary Programmes), 15 UG and 8 PG programmes in Arts, Science, Commerce, Management , Media studies and Artificial Intelligence.
-                    It is affiliated to University of Calicut and recognised by Government of Kerala and University
-                    Grants Commission (UGC) under 2(f).The college has been granted autonomy by UGC for 10 years from 2024-2025 to 2033-34.
-                </h2>
-                <a href="./about/index.html"><button class="welcome-button">KNOW MORE</button></a>
-            </div>
+            </div>            
         </section>
 
 
-        <section class="bg-princi mt-3">
+
+        <section class="mt-4">
             <div class="container">
                 <div class="row">
+                    <div class="col-12">
+                        <div class="welcome-body">
+                            <p class="welcome-head">Welcome to SAFI</p>
+                            <h2 class="welcome-text">
+                                SAFI Institute of Advanced Study (Autonomous), one of the premier Higher Education Institutions in the
+                                state of Kerala was established in 2005 by the Social Advancement Foundation of India (SAFI), a
+                                Non-profitable Charitable Trust.
+                                It offers 2 Phd , 2 ITEP (Secondary Programmes), 15 UG and 8 PG programmes in Arts, Science, Commerce, Management , Media studies and Artificial Intelligence.
+                                It is affiliated to University of Calicut and recognised by Government of Kerala and University
+                                Grants Commission (UGC) under 2(f).The college has been granted autonomy by UGC for 10 years from 2024-2025 to 2033-34.
+                            </h2>
+                            <a href="./about/index.html"><button class="welcome-button">KNOW MORE</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
                     <div class="col-12">
                         <p class="page-head">Principal's Message</p>
                         <div class="yellow-line"></div>
@@ -177,7 +182,7 @@
             </div>
         </section>
 
-        <section class="bg-cust-light">
+        <section class="mt-5">
             <div class="container" v-if="ishappenings">
                 <div class="row">
                     <div class="col-12 col-md-7 mt-1">
@@ -282,7 +287,7 @@
             <div class="container">
                  <p class="page-head text-center">Placement-Internship Partners </p>
                 <div class="yellow-line-center"></div>
-                <div class="logos">
+                <div class="logos" style="background-color: #fff;">
                     <div class="slider-1">
                         <div class="slide-track-1">
                             <div class="slide-1"><img src="./images/corporate-partners/1.jpg" alt=""></div>
@@ -410,13 +415,13 @@
             </div>
             <div class="container text-center mt-5">
                 <a href="./gallery.html"><button
-                        class="btn btn-outline-success btn-lg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIEW
+                        class="btn btn-lg" style="background-color: #856715;color: #fff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIEW
                         GALLERY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></a>
             </div>
         </section>
 
 
-        <section class="bg-cust-light">
+        <section class="mt-5">
             <div class="container">
                 <p class="page-head text-center">AT A GLANCE</p>
                 <p class="page-subhead text-center">HAVE A LOOK AT THE AMBIENCE OF SIAS</p>
@@ -488,7 +493,7 @@
                             <div class="news-body" v-for="n in news">
                                 <img :src="n.image.url" class="news-img">
                                 <p class="news-text">{{n.text}}</p>
-                                <a :href="n.link"><button class="btn btn-primary btn-block">VIEW</button></a>
+                                <a :href="n.link"><button class="btn  btn-block" style="background-color: #866716;color: #fff;">VIEW</button></a>
                             </div>
 
                         </div>
@@ -496,12 +501,12 @@
                 </div>
             </div>
         </section>
-        <section class="bg-cust-light mt-4">
+        <section class="mt-4">
             <div class="container">
                 <p class="page-head text-center">CLUBS AND FORUMS</p>
                 <p class="page-subhead text-center">STUDENTS CLUBS , COMMUNITIES AND FORUMS </p>
                 <div class="yellow-line-center"></div>
-                <div id="clubs">
+                <div id="clubs" style="background-color: #fff;">
                     <img src="./images/clubs/club-1.png" class="clubs-img">
                     <img src="./images/clubs/club-2.png" class="clubs-img">
                     <img src="./images/clubs/club-3.png" class="clubs-img">
@@ -528,21 +533,22 @@
 
 
 
-        <section class="bg-cust-dark">
+        <div class="page-end-blank"></div>
+        <section class="footer-div">
             <div class="container" id="footer">
                 <!--footer here-->
             </div>
         </section>
 
-        <section style="background-color: #e5e5e5">
+        <section class="branding-bg">
             <div class="container">
                 <div class="row">
                     <div class="col-12 ">
-                        <p class="bottom-text text-center">&copy;siasindia All rights reserved.
-                            Developed by <a href="https://fugipie.com" target="_blank"
-                                style="font-weight: 700;color: black;">Fugipie</a></p>
+                        <p class="branding-text text-center">
+                            &copy; siasindia All rights reserved. Developed by 
+                            <a href="https://fugipie.com" target="_blank" class="brand-company">Fugipie</a>
+                        </p>
                     </div>
-
                 </div>
             </div>
         </section>

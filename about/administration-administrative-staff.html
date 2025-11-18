@@ -35,11 +35,11 @@
             font-family:'Open Sans', sans-serif;
         }
         .acc-head{
-            border: #30403a 2px solid;
+            border: #122835 2px solid;
             margin-bottom: 5px;
         }
         .acc-head-body{
-            background-color: #30403a;
+            background-color: #122835;
             padding:10px 20px;
             
         }
@@ -120,11 +120,11 @@
                         
                           <div id="office" class="collapse " data-parent="#accordion">
                             <table class="table table-bordered">
-                                <tr>
+                                <tr style="background-color:#fcfbf7;">
                                     <th>Name</th>
                                     <th>Designation</th>
                                 </tr>
-                                <tr v-for="staff in office" :key="staff.id">
+                                <tr v-for="staff in office" :key="staff.id" style="background-color:#fcfbf7;">
                                     <td>{{staff.name}}</td>
                                     <td>{{staff.desg}}</td>
                                 </tr>
@@ -141,11 +141,11 @@
                           <div id="library" class="collapse " data-parent="#accordion">
                               
                             <table class="table table-bordered">
-                                <tr>
+                                <tr style="background-color:#fcfbf7;">
                                     <th>Name</th>
                                     <th>Designation</th>
                                 </tr>
-                                <tr v-for="staff in library" :key="staff.id">
+                                <tr v-for="staff in library" :key="staff.id" style="background-color:#fcfbf7;">
                                     <td>{{staff.name}}</td>
                                     <td>{{staff.desg}}</td>
                                 </tr>
@@ -161,11 +161,11 @@
                         
                           <div id="support" class="collapse " data-parent="#accordion">
                             <table class="table table-bordered">
-                                <tr>
+                                <tr style="background-color:#fcfbf7;">
                                     <th>Name</th>
                                     <th>Designation</th>
                                 </tr>
-                                <tr v-for="staff in support" :key="staff.id">
+                                <tr v-for="staff in support" :key="staff.id" style="background-color:#fcfbf7;">
                                     <td>{{staff.name}}</td>
                                     <td>{{staff.desg}}</td>
                                 </tr>
@@ -181,11 +181,11 @@
                         
                           <div id="lab" class="collapse " data-parent="#accordion">
                             <table class="table table-bordered">
-                                <tr>
+                                <tr style="background-color:#fcfbf7;">
                                     <th>Name</th>
                                     <th>Designation</th>
                                 </tr>
-                                <tr v-for="staff in lab" :key="staff.id">
+                                <tr v-for="staff in lab" :key="staff.id" style="background-color:#fcfbf7;">
                                     <td>{{staff.name}}</td>
                                     <td>{{staff.desg}}</td>
                                 </tr>
@@ -206,11 +206,11 @@
                         
                           <div id="lhostel" class="collapse " data-parent="#accordion">
                             <table class="table table-bordered">
-                                <tr>
+                                <tr style="background-color:#fcfbf7;">
                                     <th>Name</th>
                                     <th>Designation</th>
                                 </tr>
-                                <tr v-for="staff in lhostel" :key="staff.id">
+                                <tr v-for="staff in lhostel" :key="staff.id" style="background-color:#fcfbf7;">
                                     <td>{{staff.name}}</td>
                                     <td>{{staff.desg}}</td>
                                 </tr>
@@ -228,11 +228,11 @@
                           <div id="mhostel" class="collapse " data-parent="#accordion">
                               
                             <table class="table table-bordered">
-                                <tr>
+                                <tr style="background-color:#fcfbf7;">
                                     <th>Name</th>
                                     <th>Designation</th>
                                 </tr>
-                                <tr v-for="staff in mhostel" :key="staff.id">
+                                <tr v-for="staff in mhostel" :key="staff.id" style="background-color:#fcfbf7;">
                                     <td>{{staff.name}}</td>
                                     <td>{{staff.desg}}</td>
                                 </tr>
@@ -243,9 +243,6 @@
 
                     </div>
                     
-                    <div style="background-color: #fff;" class="d-block d-md-none">
-                        <hr width="100%" size="2px" color="black">
-                    </div>
                 </div>
                 
             </div>
@@ -254,23 +251,24 @@
 
 
 
-    <div style="height: 25px;background-color: #fff;"></div>
-    
-
-    <section class="bg-cust-dark">
+    <div class="page-end-blank"></div>
+    <section class="footer-div">
         <div class="container" id="footer">
-            <!--footer here-->          
+            <!--footer here-->
         </div>
     </section>
-    <section style="background-color: #e5e5e5">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 ">
-                <p class="bottom-text text-center">&copy;siasindia All rights reserved. Developed by <a href="https://fugipie.com"  target="_blank" style="font-weight: 700;color: black;">Fugipie</a></p>
+
+    <section class="branding-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <p class="branding-text text-center">
+                        &copy; siasindia All rights reserved. Developed by 
+                        <a href="https://fugipie.com" target="_blank" class="brand-company">Fugipie</a>
+                    </p>
+                </div>
             </div>
-            
         </div>
-    </div>
     </section>
 
     <script src="../scripts/over-other.js"></script>

@@ -7,9 +7,11 @@
     background-color: #efefef;
     padding: 30px 0;
 }
+
+
 .yellow-line{
     margin: 6px 0 10px;
-    background-color: #FED100;
+    background-color: #C5A448;
     border-radius: 30px;
     width: 100px;
     height: 4px;
@@ -21,7 +23,7 @@ html{
 body{
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: #FEFAEF;
     overflow-x: hidden;
 }
 a:hover{
@@ -34,23 +36,28 @@ a:hover{
 }
 .topbar{
     width: 100%;
-    background-color: #127C38;   
+    background-color: #16433E;   
     padding: 3px 0;
     margin: 0;
 }
 
 .topbar-text{
     font-family: 'Saira', sans-serif;
-    color: #f8f9fa;
+    color: #fff;
     font-weight: 400;
     font-size: 14px;
     padding: 0;
     margin: 0;
 }
+.navbar-light-bg{
+    width: 100%;
+    background-color: #FEFAEF;
+}
 .navbar-custom{
     width: 100%;
-    background-color: white;
+    background-color: #FEFAEF;
     padding: 10px 0;
+
 }
 
 .custom-navbar-logo{
@@ -68,10 +75,10 @@ a:hover{
 
 .nav-text-active{
     font-weight: 600;
-    color: #127C38;
+    color: #16433E;
 }
 .nav-text:hover{
-    color: #127C38;
+    color: #16433E;
     font-weight: 600;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out; 
@@ -89,6 +96,7 @@ a:hover{
 }
 
 .footer-head{
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
     padding: 0;
@@ -98,20 +106,14 @@ a:hover{
 }
 
 .footer-text{
-    color: gray;
+    color: rgb(215, 214, 214);
     font-weight: 400;
     font-size: 14px;
     margin: 0;
     padding-bottom: 6px;
 }
 
-.bottom-text{
-    font-size: 14px;
-    font-weight: 500;
-    color: #333;
-    margin: 0;
-    padding: 6px 0;
-}
+
 
 .page-name-body{
     width: 100%;
@@ -140,12 +142,12 @@ a:hover{
     color: #333;
 }
 .page-nav-active{
-    color: #127C38;
+    color: #114a2a;
 }
 
 .side-bar{
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #fff;
     height: 100%;
 }
 
@@ -157,11 +159,12 @@ a:hover{
     padding: 6px 6px 6px 6%;
 }
 .sidebar-item-active{
-    background: linear-gradient(to right,  #FED100 4%,#FED100 4%,#0b9247 4%,#0b9247 100%);
+    /* background: linear-gradient(to right,  #FED100 4%,#FED100 4%,#0b9247 4%,#0b9247 100%); */
+    background-color: #a88628;
     color: white;
 }
 .sidebar-item:hover{
-    background-color: #0b9247;
+    background-color: #c2b07c;
     color: white;
 }
 
@@ -232,10 +235,15 @@ a:hover{
     margin: 0;
     width:100%
 }
+
+.page-end-blank{
+    height: 50px;
+    background-color: #FEFAEF;
+}
 @keyframes bganimation {
-    0% {background-color: #0b9247;}
-    50% {background-color: #09b609}
-    100% {background-color: #0b9247;}
+    0% {background-color: #16433E;}
+    50% {background-color: #16432c}
+    100% {background-color: #16433E;}
 
 }
 @media only screen and (max-width: 767px){
@@ -313,7 +321,6 @@ a:hover{
         font-weight: 400;
         padding: 0;
         margin: 10px 0 20px;
-        color:#556776;
     }
     .footer-naac-grade-img{
         margin: 0;
@@ -353,6 +360,10 @@ a:hover{
     }
 }
 
+.footer-div{
+   background-color: #091b19;
+    padding: 30px 0;
+}
 
 .resplayer-footer {
     width: 90%;
@@ -369,7 +380,7 @@ a:hover{
 .footer-contact-text {
     font-size: 16px;
     font-weight: 500;
-    color: #101010;
+    color: #ffffff;
     padding: 0;
     margin: 10px 0;
 }
@@ -382,6 +393,16 @@ a:hover{
 .footer-social-item{
     margin: 0 10px;
 }
+
+
+.yellow-line-footer{
+    margin: 6px 0 10px;
+    background-color: #efdc5c;
+    border-radius: 30px;
+    width: 15%;
+    height: 4px;
+}
+
 @media only screen and (max-width: 576px) {
     .resplayer-footer {
         width: 100%;
@@ -396,4 +417,26 @@ a:hover{
     .footer-contact-text {
         font-size: 12px;
     }
+}
+
+.branding-bg{
+    background-color: #05100f;
+}
+
+.branding-text{
+    font-size: 15px;
+    font-weight: 500;
+    color: #d9d9d9;
+    margin: 0;
+    padding: 6px 0;
+}
+.brand-company{
+    font-weight: 700;
+    animation: fadeColor 5s ease-in-out infinite;
+}
+
+@keyframes fadeColor {
+  0%   { color: #ffffff; }
+  50%  { color: #f9fec7; }
+  100% { color: #ffffff; }
 }

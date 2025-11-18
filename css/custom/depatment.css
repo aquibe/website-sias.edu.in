@@ -92,19 +92,11 @@
     height: 90%;
     box-shadow: 0 0 10px 1px grey; 
     border-radius: 20px; 
-    background-color: #fff;
-}
-
-.fac-card:hover{
-    background-color: #2F4239;
-}
-
-.fac-card:hover .fac-name{
+    background-color: #112835;
     color: #fff;
 }
-.fac-card:hover .fac-desg{
-    color: #fff;
-}
+
+
 .fac-img{
     width: 100%;
     border-radius: 20px
@@ -114,25 +106,49 @@
     margin-top: 10px;
     font-size: 16px;
     font-weight: 600;
-    color: #000;
+    color: #fff;
     margin-bottom: 6px;
 }
 
 .fac-desg{
     font-size: 16px;
     font-weight: 400;
-    color: #303030;
+    color: #e6e6e6;
     padding-bottom: 8px;
     margin: 0;
 }
 
 .fac-button{
     margin-bottom: 15%;
-    color: #fff;
+    color: #000;
     font-size: 14px;
     font-weight: 600;
     border: none;
     border-radius: 8px;
-    background-color: #218838;
+    background-color: #c7a982;
     padding: 8px 20px;
+}
+
+.fac-card:hover{
+    background-color: #0a1820;
+}
+
+.fac-card:hover .fac-name{
+    color: #fff;
+}
+.fac-card:hover .fac-desg{
+    color: #fff;
+}
+
+.fac-card:hover .fac-button{
+    background-color: #fff;
+}
+
+
+.table-head{
+    background-color: #14263A;
+    color: #fff;
+}
+.table-row{
+    background-color: #FCFBF7;
 }
